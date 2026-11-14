@@ -1,0 +1,10 @@
+NASA OSDR DATA NOTES
+===================
+Study Accession: OSD-87
+Title: Spaceflight effects on the mouse retina: Histological, gene expression and epigenetic changes after flight on STS-135
+Mission: STS-135 (Space Shuttle Atlantis)
+Organism: Mus musculus
+Files: 18 study files cataloged
+Subject Record: Subject 195 (Mus musculus C57BL/6J)
+Educational Application: Demonstrates spaceflight ocular health, zero-G retina blood vessel changes, and the requirement for gold-coated helmet visors.
+Note: Raw assay CEL and BAM files are 500MB+ each; metadata and subject records are cached locally for real-time educational gameplay simulation.

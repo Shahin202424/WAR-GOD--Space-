@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Junior Astronaut: 70-Level Space Survival Adventure! 🚀</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Orbitron:wght@600;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Fullscreen Confetti Overlay for Celebrations -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <!-- =========================================================================
+       SCREEN 1: HOME SCREEN (ANIMATED OPENING)
+       ========================================================================= -->
+  <section id="screen-home" class="game-screen active-screen">
+    <canvas id="home-bg-canvas"></canvas>
+
+    <div class="home-content-container">
+      <div class="space-badge-tag">🚀 2026 NASA SPACE APPS CHALLENGE • 7 MISSIONS • 70 LEVELS</div>
+      <h1 class="game-main-title">
+        <span class="title-sub">JUNIOR ASTRONAUT</span>
+        <span class="title-main">MISSION TRAINER</span>
+      </h1>
+      <p class="home-tagline">"Master space survival from Earth orbit to Moon & Mars!"</p>
+
+      <!-- Animated Martian Astronaut Scene -->
+      <div class="home-character-scene">
+        <div class="astronaut-float-anim">🧑‍🚀</div>
+        <div class="floating-planet mars-globe">🪐</div>
+        <div class="floating-planet moon-globe">🌖</div>
+        <div class="floating-star s1">⭐</div>
+        <div class="floating-star s2">✨</div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="home-buttons-group">
+        <button id="btn-home-play" class="btn-primary-glow btn-huge">
+          PLAY GAME 🚀
+        </button>
+        <div class="secondary-btn-row">
+          <button id="btn-home-how" class="btn-secondary">
+            📖 HOW TO PLAY
+          </button>
+          <button id="btn-home-sci-lab" class="btn-secondary">
+            🔬 NASA SCIENCE LAB
+          </button>
+          <button id="btn-home-settings" class="btn-secondary">
+            ⚙️ SETTINGS
+          </button>
+        </div>
+      </div>
+
+      <div class="nasa-attribution-strip">
+        Powered by Real NASA Open Data: DONKI • OSDR • RadLab • Mars Trek • NASA Images
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SCREEN 2: ASTRONAUT SELECTION & CUSTOMIZATION
+       ========================================================================= -->
+  <section id="screen-select" class="game-screen hidden">
+    <div class="screen-box-card">
+      <h2 class="screen-title">Astronaut Cadet Preparation</h2>
+      <p class="screen-subtitle">"Choose your suit, difficulty, and callsign!"</p>
+
+      <!-- Cadet Character Selection -->
+      <div class="cadet-picker-container">
+        <label class="form-label">🧑‍🚀 Choose Your Astronaut Cadet:</label>
+        <div class="cadet-options-grid">
+          <button class="cadet-card-btn selected" data-cadet-id="leo" data-cadet-name="Leo" data-cadet-avatar="🧑‍🚀" data-cadet-role="Rocket Flight Pilot">
+            <div class="cadet-avatar">🧑‍🚀</div>
+            <div class="cadet-name">Cadet Leo</div>
+            <div class="cadet-desc">Rocket Pilot 🚀</div>
+          </button>
+          <button class="cadet-card-btn" data-cadet-id="maya" data-cadet-name="Maya" data-cadet-avatar="👩‍🚀" data-cadet-role="Space Botanist & Doctor">
+            <div class="cadet-avatar">👩‍🚀</div>
+            <div class="cadet-name">Cadet Maya</div>
+            <div class="cadet-desc">Botanist & Doctor 🔬</div>
+          </button>
+          <button class="cadet-card-btn" data-cadet-id="sam" data-cadet-name="Sam" data-cadet-avatar="🧑🏽‍🚀" data-cadet-role="Geology Specialist">
+            <div class="cadet-avatar">🧑🏽‍🚀</div>
+            <div class="cadet-name">Cadet Sam</div>
+            <div class="cadet-desc">Geologist & Tech 💎</div>
+          </button>
+          <button class="cadet-card-btn" data-cadet-id="zara" data-cadet-name="Zara" data-cadet-avatar="👩🏾‍🚀" data-cadet-role="Mission Commander">
+            <div class="cadet-avatar">👩🏾‍🚀</div>
+            <div class="cadet-name">Cadet Zara</div>
+            <div class="cadet-desc">Commander 🛡️</div>
+          </button>
+          <button class="cadet-card-btn" data-cadet-id="sparky" data-cadet-name="Sparky" data-cadet-avatar="🤖" data-cadet-role="AI Science Robot">
+            <div class="cadet-avatar">🤖</div>
+            <div class="cadet-name">Bot Sparky</div>
+            <div class="cadet-desc">Science Bot ⚡</div>
+          </button>
+        </div>
+      </div>
+
+      <!-- Spacesuit Color Picker -->
+      <div class="suit-picker-container">
+        <label class="form-label">Pick Your Spacesuit Color:</label>
+        <div class="suit-options-grid">
+          <button class="suit-color-option selected" data-suit-color="orange" style="--suit-theme: #FF6D00;">
+            <span class="suit-dot">🟠</span> Solar Orange
+          </button>
+          <button class="suit-color-option" data-suit-color="blue" style="--suit-theme: #00B0FF;">
+            <span class="suit-dot">🔵</span> Cosmic Blue
+          </button>
+          <button class="suit-color-option" data-suit-color="pink" style="--suit-theme: #F50057;">
+            <span class="suit-dot">🌸</span> Nebula Pink
+          </button>
+          <button class="suit-color-option" data-suit-color="green" style="--suit-theme: #00E676;">
+            <span class="suit-dot">🟢</span> Martian Green
+          </button>
+          <button class="suit-color-option" data-suit-color="white" style="--suit-theme: #ECEFF1;">
+            <span class="suit-dot">⚪</span> Astro White
+          </button>
+        </div>
+      </div>
+
+      <!-- Difficulty Selector -->
+      <div class="difficulty-picker-container">
+        <label class="form-label">Mission Difficulty:</label>
+        <div class="diff-options-grid">
+          <button class="diff-option-btn" data-difficulty="easy">
+            🌱 <strong>Easy Explorer</strong><br><small>Forgiving life support & extra hints</small>
+          </button>
+          <button class="diff-option-btn selected" data-difficulty="scientist">
+            🔬 <strong>Space Scientist</strong><br><small>Balanced simulation & realistic resources</small>
+          </button>
+          <button class="diff-option-btn" data-difficulty="hard">
+            ⚡ <strong>Mission Commander</strong><br><small>Tight resource margins & emergencies</small>
+          </button>
+        </div>
+      </div>
+
+      <!-- Astronaut Name Input -->
+      <div class="name-input-group">
+        <label for="player-name-input" class="form-label">Enter Astronaut Name:</label>
+        <input type="text" id="player-name-input" maxlength="16" placeholder="e.g. Alex" value="Alex">
+      </div>
+
+      <!-- Character Preview Display -->
+      <div class="character-preview-box">
+        <div id="character-preview-avatar" class="preview-avatar">🟠 🧑‍🚀</div>
+        <div id="preview-astronaut-name" class="preview-name">Cadet Alex</div>
+        <div class="preview-role">Junior Astronaut Cadet • Moon & Mars Program</div>
+      </div>
+
+      <button id="btn-start-mission" class="btn-primary-glow btn-wide">
+        ENTER MISSION CONTROL 🌌
+      </button>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SCREEN 3: MISSION CONTROL (7 MISSIONS × 10 LEVELS = 70 LEVELS)
+       ========================================================================= -->
+  <section id="screen-levels" class="game-screen hidden">
+    <div class="levels-header-bar">
+      <div class="levels-header-left">
+        <h2>Mission Control: 7 Missions & 70 Levels</h2>
+        <span class="levels-sub">Explore Earth Orbit, Moon Outposts, Deep Space & Martian Colonies</span>
+      </div>
+      <div class="levels-header-right">
+        <button id="btn-view-certificate" class="btn-secondary btn-sm">
+          🎓 View Certificate
+        </button>
+      </div>
+    </div>
+
+    <!-- Missions & Levels Grid Container -->
+    <div id="levels-grid-container" class="missions-scroll-container"></div>
+  </section>
+
+  <!-- =========================================================================
+       SCREEN 4: ACTIVE GAME PLAY SCREEN (HUD, CANVAS & SURVIVAL TRAY)
+       ========================================================================= -->
+  <section id="screen-play" class="game-screen hidden">
+    <!-- Top Astronaut HUD Bar -->
+    <header id="game-hud" class="game-hud-bar hidden">
+      <div class="hud-top-row">
+        <div class="hud-left">
+          <div class="hud-astronaut-pill">
+            <span id="hud-avatar-icon">🧑‍🚀</span>
+            <span id="hud-player-name">Alex</span>
+          </div>
+          <span id="hud-player-rank" class="hud-rank-pill">🧑‍🚀 Cadet</span>
+          <span id="hud-level-pill" class="hud-pill">Level 1 of 70</span>
+          <button id="hud-nasa-telemetry-pill" class="hud-telemetry-pill status-demo-mode" title="View NASA Science Telemetry">
+            <span class="status-dot"></span> NASA: DEMO MODE
+          </button>
+        </div>
+
+        <div class="hud-center">
+          <div id="hud-location-tag" class="hud-location-tag">📍 Low Earth Orbit • Space Academy</div>
+          <div id="hud-mission-title" class="hud-mission-title">Mission 1: Astronaut Training Academy</div>
+          <div id="hud-mission-objective" class="hud-objective-text">Complete the training drill!</div>
+        </div>
+
+        <!-- High-Tech Mini Space Navigation Radar & Telemetry Display -->
+        <div class="hud-nav-radar-widget" id="hud-nav-radar" title="Spacecraft Navigation Radar">
+          <div class="radar-scope-ring">
+            <div class="radar-sweep-beam"></div>
+            <div class="radar-target-blip blip-alpha"></div>
+            <div class="radar-target-blip blip-bravo"></div>
+            <div class="radar-crosshair-h"></div>
+            <div class="radar-crosshair-v"></div>
+          </div>
+          <div class="radar-info-box">
+            <span class="radar-status-label">NAV RADAR // SCAN</span>
+            <span class="radar-telemetry-text" id="hud-radar-telemetry">TRACK: NOMINAL • 412 km</span>
+          </div>
+        </div>
+
+        <div class="hud-right">
+          <div class="hud-metric">
+            <span class="metric-icon">⭐</span>
+            <span id="hud-stars-count">0</span>
+          </div>
+          <div class="hud-metric">
+            <span class="metric-icon">💎</span>
+            <span id="hud-science-points">0</span>
+          </div>
+          <button id="hud-sound-toggle" class="hud-btn-round" title="Sound On/Off">🔊</button>
+          <button id="hud-pause-btn" class="hud-btn-round" title="Pause Game">⏸️</button>
+          <button id="hud-missions-btn" class="hud-btn-pill" title="Back to Mission Control">🗺️ Missions</button>
+        </div>
+      </div>
+
+      <!-- Real-Time Astronaut Life Support HUD Gauges -->
+      <div class="hud-vitals-row">
+        <div class="vital-item" id="hud-vital-health" title="Astronaut Health (0-100%)">
+          <span class="vital-icon">❤️</span>
+          <span class="vital-name">Health</span>
+          <div class="vital-bar"><div class="vital-bar-fill fill-green" style="width: 100%;"></div></div>
+          <span class="vital-val">100%</span>
+        </div>
+
+        <div class="vital-item" id="hud-vital-o2" title="Oxygen Life Support (0-100%)">
+          <span class="vital-icon">🫧</span>
+          <span class="vital-name">Oxygen</span>
+          <div class="vital-bar"><div class="vital-bar-fill fill-green" style="width: 100%;"></div></div>
+          <span class="vital-val">100%</span>
+        </div>
+
+        <div class="vital-item" id="hud-vital-water" title="Water Reserves (0-100%)">
+          <span class="vital-icon">💧</span>
+          <span class="vital-name">Water</span>
+          <div class="vital-bar"><div class="vital-bar-fill fill-green" style="width: 100%;"></div></div>
+          <span class="vital-val">100%</span>
+        </div>
+
+        <div class="vital-item" id="hud-vital-energy" title="System Power (0-100%)">
+          <span class="vital-icon">⚡</span>
+          <span class="vital-name">Energy</span>
+          <div class="vital-bar"><div class="vital-bar-fill fill-green" style="width: 100%;"></div></div>
+          <span class="vital-val">100%</span>
+        </div>
+
+        <div class="vital-item" id="hud-vital-radiation" title="RadLab Radiation Dosimetry (Accumulated Dose in µSv)">
+          <span class="vital-icon">☢️</span>
+          <span class="vital-name">Radiation</span>
+          <div class="vital-bar"><div class="vital-bar-fill fill-green" style="width: 0%;"></div></div>
+          <span class="vital-val">0 µSv</span>
+        </div>
+
+        <div class="vital-item" id="hud-vital-food" title="Space Rations & Greenhouse Food Units">
+          <span class="vital-icon">🥗</span>
+          <span class="vital-name">Food</span>
+          <div class="vital-bar"><div class="vital-bar-fill fill-green" style="width: 80%;"></div></div>
+          <span class="vital-val">80u</span>
+        </div>
+
+        <div id="hud-shelter-indicator" class="shelter-indicator-pill hidden">
+          🛡️ SHELTER ACTIVE
+        </div>
+      </div>
+
+      <!-- Interactive Survival Action Tray -->
+      <div id="hud-survival-action-tray" class="hud-survival-tray">
+        <span class="tray-label">SURVIVAL ACTIONS:</span>
+        <button class="survival-act-btn" data-action="emergency-o2" title="Emergency Oxygen Purge (-10 Energy, +30% O2)">
+          🫧 +O₂ Pulse
+        </button>
+        <button class="survival-act-btn" data-action="purify-water" title="Recycle & Distill Water (-8 Energy, +25% Water)">
+          💧 Purify H₂O
+        </button>
+        <button class="survival-act-btn" data-action="activate-shelter" title="Seal Regolith Radiation Bunker (-15 Energy, 95% Shield)">
+          🛡️ Enter Shelter
+        </button>
+        <button class="survival-act-btn" data-action="eat-ration" title="Consume Space Ration (-15 Food, +20% Health)">
+          🍽️ Eat Ration
+        </button>
+        <button class="survival-act-btn" data-action="harvest-crop" title="Harvest Greenhouse Crop (-8 H2O, -8 Energy, +30 Food, +10% O2)">
+          🥗 Harvest Crop
+        </button>
+        <button class="survival-act-btn" data-action="medical-care" title="Medical Bay First Aid (-12 Energy, -10 Water, +35% Health)">
+          🩹 First Aid
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Game Canvas Container -->
+    <div class="canvas-viewport-container">
+      <!-- Cockpit Canopy Glass Frame & Telemetry Brackets -->
+      <div class="cockpit-canopy-overlay" id="cockpit-canopy-overlay">
+        <div class="cockpit-glass-glare"></div>
+        <div class="cockpit-bracket top-left"><span class="bracket-tag">SYS-A1</span></div>
+        <div class="cockpit-bracket top-right"><span class="bracket-tag">ORION-HUD</span></div>
+        <div class="cockpit-bracket bottom-left"><span class="bracket-tag">FLIGHT-VECT</span></div>
+        <div class="cockpit-bracket bottom-right"><span class="bracket-tag">NASA-DSN</span></div>
+        <div class="cockpit-hud-reticle">
+          <div class="reticle-circle"></div>
+          <div class="reticle-cross-h"></div>
+          <div class="reticle-cross-v"></div>
+        </div>
+        <div class="cockpit-telemetry-tape" id="cockpit-telemetry-tape">
+          <span>ALT: 412.8 KM</span>
+          <span>•</span>
+          <span>VEL: 7.76 KM/S</span>
+          <span>•</span>
+          <span>CABIN: 101.3 KPA</span>
+          <span>•</span>
+          <span>ARTEMIS TELEMETRY LOCK</span>
+        </div>
+      </div>
+
+      <canvas id="game-canvas"></canvas>
+
+      <!-- Modular Habitat Dock (For builder archetype) -->
+      <div id="base-builder-dock" class="base-dock-bar hidden"></div>
+
+      <!-- In-Game Checkpoint Question Overlay Removed: Pure Interactive Gameplay Only -->
+    </div>
+
+    <!-- Friendly Guide Character Widget (Astro Alex) -->
+    <div id="guide-character-widget" class="guide-widget hidden">
+      <div class="guide-avatar-circle" id="guide-avatar">🧑‍🚀</div>
+      <div class="guide-speech-bubble" id="guide-speech-bubble">
+        <div class="guide-name-label">Astro Alex (Flight Guide)</div>
+        <p id="guide-speech-text">Welcome, Space Explorer! Keep an eye on your oxygen and radiation!</p>
+      </div>
+    </div>
+
+    <!-- Large On-Screen Mobile & Desktop Touch Controls -->
+    <div id="mobile-controls-bar" class="mobile-touch-panel hidden">
+      <div class="touch-directional-group">
+        <button id="touch-btn-left" class="touch-btn">⬅️ LEFT</button>
+        <button id="touch-btn-right" class="touch-btn">➡️ RIGHT</button>
+      </div>
+      <div class="touch-action-group">
+        <button id="touch-btn-jump" class="touch-btn action-jump">⬆️ JUMP</button>
+        <button id="touch-btn-thrust" class="touch-btn action-thrust">🚀 THRUST</button>
+        <button id="touch-btn-action" class="touch-btn action-main">🎯 ENGAGE</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SCREEN 5: HOW TO PLAY INSTRUCTIONS
+       ========================================================================= -->
+  <section id="screen-how-to-play" class="game-screen hidden">
+    <div class="screen-box-card wide-card">
+      <h2 class="screen-title">How To Play Junior Astronaut 🎮</h2>
+      <div class="instructions-grid">
+        <div class="instruction-card">
+          <div class="inst-icon">🚀</div>
+          <h3>Controls</h3>
+          <p><strong>Keyboard:</strong> Arrow Keys / WASD to move & steer, Spacebar to Jump or Thrust!</p>
+          <p><strong>Touchscreen:</strong> Tap the big colourful buttons at the bottom of the screen!</p>
+        </div>
+        <div class="instruction-card">
+          <div class="inst-icon">❤️</div>
+          <h3>Astronaut Survival HUD</h3>
+          <p>Watch your <strong>Health, Oxygen, Water, Energy, Radiation, and Food</strong>. Use the Survival Tray to cycle O₂, purify water, or take shelter!</p>
+        </div>
+        <div class="instruction-card">
+          <div class="inst-icon">🪐</div>
+          <h3>20 Major Missions</h3>
+          <p>Complete training, rocket launch, lunar landings, base building, solar storm survival, rover drilling, and Mars colonization!</p>
+        </div>
+        <div class="instruction-card">
+          <div class="inst-icon">🔬</div>
+          <h3>Real NASA Science</h3>
+          <p>Learn authentic space facts from NASA DONKI space weather, OSDR space biology, RadLab dosimetry, and Mars Trek cartography!</p>
+        </div>
+      </div>
+      <button id="btn-how-back" class="btn-primary-glow btn-wide">
+        BACK TO START 🏠
+      </button>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       MODALS & DIALOGS
+       ========================================================================= -->
+
+  <!-- Animated Story Video / Intro Scene Modal (Plays before each level) -->
+  <div id="story-intro-modal" class="game-modal-overlay hidden">
+    <div class="modal-card story-intro-card">
+      <canvas id="story-bg-canvas" class="story-canvas"></canvas>
+
+      <div class="story-overlay-content">
+        <div class="story-top-row">
+          <span id="story-mission-tag" class="story-mission-pill">MISSION 1: TRAINING ACADEMY</span>
+          <span id="story-nasa-badge" class="story-nasa-pill">🛰️ NASA Artemis SLS</span>
+        </div>
+
+        <h2 id="story-level-title" class="story-heading">Level 1: Spacesuit Pressure Seal Check</h2>
+
+        <div class="story-visual-row">
+          <div class="story-photo-box">
+            <img id="story-nasa-photo" src="assets/images/mars-landscape.svg" alt="NASA Space Exploration Photo">
+            <div id="story-photo-caption" class="story-photo-label">NASA Space Exploration</div>
+          </div>
+
+          <div class="story-narration-box">
+            <div class="story-narrator-avatar" id="story-guide-avatar">🧑‍🚀</div>
+            <div class="story-text-body">
+              <p id="story-narrative-text">Welcome Cadet! Prepare your spacesuit systems for launch...</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="story-objective-card">
+          <span class="obj-badge">PRIMARY OBJECTIVE:</span>
+          <span id="story-objective-text">Calibrate suit pressure and verify 4.3 psi seals!</span>
+        </div>
+
+        <div class="story-actions-row">
+          <button id="btn-story-start" class="btn-primary-glow btn-large">
+            START MISSION 🚀
+          </button>
+          <div class="story-sub-buttons">
+            <button id="btn-story-skip" class="btn-secondary">
+              ⏩ Skip Story
+            </button>
+            <button id="btn-story-replay" class="btn-secondary">
+              🔄 Replay Narration
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Post-Level Quiz Modal Removed: Pure Interactive Gameplay Only -->
+
+  <!-- Level Complete Modal -->
+  <div id="level-complete-modal" class="game-modal-overlay hidden">
+    <div class="modal-card celebration-card">
+      <div class="modal-trophy-icon">🏆</div>
+      <h2 id="complete-level-num">LEVEL COMPLETE!</h2>
+      <div id="complete-stars-display" class="modal-stars-row">⭐⭐⭐</div>
+      <div id="complete-points-display" class="modal-points-callout">+100 Science Points!</div>
+      <p id="complete-message-display" class="modal-message-text">Outstanding piloting, Junior Astronaut!</p>
+      <div id="complete-fact-display" class="modal-fact-callout hidden">
+        <span class="fact-bulb">💡</span>
+        <div class="fact-text-wrap">
+          <strong>NASA Space Fact:</strong>
+          <span id="complete-fact-text"></span>
+        </div>
+      </div>
+      <div class="level-complete-actions-list">
+        <button id="btn-complete-next" class="btn-primary-glow btn-wide">
+          NEXT LEVEL 🚀
+        </button>
+        <button id="btn-complete-retry" class="btn-secondary btn-wide">
+          🔄 RETRY LEVEL
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mission Failed / Game Over / Retry Modal -->
+  <div id="mission-failed-modal" class="game-modal-overlay hidden">
+    <div class="modal-card danger-card">
+      <div class="modal-danger-icon">🧑‍🚀💥</div>
+      <h2 id="failed-modal-title">MISSION FAILED!</h2>
+      <div id="failed-level-tag" class="failed-mission-tag">Mission 1, Level 1: EVA Spacewalk</div>
+      <div class="failed-reason-callout">
+        <span class="reason-bullet">⚠️</span>
+        <span id="failed-reason-text">Life support reserves were critically depleted.</span>
+      </div>
+      <p class="failed-hint-text">Space exploration takes grit! Take a breath, manage your resources, and try again.</p>
+
+      <!-- Collapsible Mission Info Drawer -->
+      <div id="failed-mission-info-box" class="failed-info-box hidden">
+        <div class="info-box-header">📖 MISSION BRIEFING & OBJECTIVES</div>
+        <div class="info-box-content">
+          <p><strong>🎯 Objective:</strong> <span id="failed-info-objective">Maintain suit life support and complete EVA.</span></p>
+          <p><strong>🛰️ NASA Connection:</strong> <span id="failed-info-nasa">NASA Open Science & Exploration Protocols</span></p>
+          <p class="info-tip">💡 <em>Survival Tip: Monitor your HUD gauges! Use the Survival Action Tray (+O₂ Pulse, Purify H₂O, Enter Shelter) when vitals drop into the yellow or red zones.</em></p>
+        </div>
+      </div>
+
+      <div class="game-over-actions-list">
+        <button id="btn-failed-retry" class="btn-primary-glow btn-wide">🔄 RETRY LEVEL</button>
+        <button id="btn-failed-exit" class="btn-secondary btn-wide">📋 LEVEL MENU / 🏠 MAIN MENU</button>
+        <button id="btn-failed-info" class="btn-secondary btn-wide">📖 MISSION INFO</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Badge Award Celebration Modal -->
+  <div id="badge-celebration-modal" class="game-modal-overlay hidden">
+    <div class="modal-card badge-card">
+      <div id="badge-icon-display" class="badge-huge-icon">🎖️</div>
+      <div class="badge-ribbon">NEW MISSION BADGE UNLOCKED!</div>
+      <h2 id="badge-title-display">Space Pilot Wings</h2>
+      <p id="badge-desc-display">Landed safely on Mars!</p>
+      <button id="btn-badge-close" class="btn-primary-glow">
+        AWESOME! 🎉
+      </button>
+    </div>
+  </div>
+
+  <!-- Pause Modal -->
+  <div id="pause-modal" class="game-modal-overlay hidden">
+    <div class="modal-card small-card">
+      <h2>Game Paused ⏸️</h2>
+      <div class="pause-actions-list">
+        <button id="btn-pause-resume" class="btn-primary-glow btn-wide">RESUME ▶️</button>
+        <button id="btn-pause-restart" class="btn-secondary btn-wide">RESTART LEVEL 🔄</button>
+        <button id="btn-pause-exit" class="btn-secondary btn-wide">MISSION CONTROL 🗺️</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div id="settings-modal" class="game-modal-overlay hidden">
+    <div class="modal-card">
+      <h2>Settings ⚙️</h2>
+      <div class="settings-rows-list">
+        <div class="setting-item">
+          <span>Game Audio:</span>
+          <button id="settings-sound-btn" class="btn-secondary">🔊 Sound: ON</button>
+        </div>
+        <div class="setting-item">
+          <span>Reset Progress:</span>
+          <button id="settings-reset-btn" class="btn-danger">Reset Save Data 🗑️</button>
+        </div>
+      </div>
+      <button id="btn-settings-close" class="btn-secondary btn-wide">CLOSE ✖</button>
+    </div>
+  </div>
+
+  <!-- NASA Live Science Telemetry / Science Lab Modal -->
+  <div id="nasa-telemetry-modal" class="game-modal-overlay hidden">
+    <div class="modal-card wide-card">
+      <h2>NASA Science Lab: Open Data Transparency 🛰️</h2>
+      <p class="telemetry-subtitle">
+        Real-time telemetry and authentic scientific references powering this game:
+      </p>
+      <div id="telemetry-details-container"></div>
+      <button id="btn-telemetry-close" class="btn-primary-glow btn-wide">
+        BACK TO MISSION CONTROL 🚀
+      </button>
+    </div>
+  </div>
+
+  <!-- Junior Astronaut Graduation Certificate Modal -->
+  <div id="certificate-modal" class="game-modal-overlay hidden">
+    <div class="modal-card certificate-card">
+      <!-- Unlocked Certificate View (Strictly after 70 levels) -->
+      <div id="cert-unlocked-view" class="cert-border">
+        <div class="cert-nasa-logo">🚀 NASA SPACE APPS CHALLENGE 2026</div>
+        <h1 class="cert-title">JUNIOR ASTRONAUT GRADUATION CERTIFICATE</h1>
+        <p class="cert-subtitle">This officially certifies that Space Explorer</p>
+        <div id="cert-player-name" class="cert-cadet-name">Alex</div>
+        <p class="cert-body-text">
+          Has demonstrated exceptional space survival skills, scientific rigor, and heroic perseverance by successfully completing all <strong>7 Major Missions and all 70 Levels</strong> across Earth Orbit, the Moon, and Mars!
+        </p>
+        <div class="cert-stats-row">
+          <div class="cert-stat" id="cert-total-stars">210 / 210 Stars Collected</div>
+          <div class="cert-stat" id="cert-total-points">12,500 Science Points</div>
+          <div class="cert-stat" id="cert-rank">Rank: Interplanetary Fleet Commander</div>
+        </div>
+        <div class="cert-acknowledgement">
+          Powered by authentic scientific open data from NASA DONKI, NASA OSDR, NASA RadLab, NASA Mars Trek, and NASA Open APIs.
+        </div>
+        <div class="cert-signature-row">
+          <div class="cert-sig">
+            <div class="sig-line">Astro Alex</div>
+            <div class="sig-title">Mission Director</div>
+          </div>
+          <div class="cert-sig">
+            <div id="cert-id-number" class="sig-id">ID: NASA-JAMT-2026-894210</div>
+            <div class="sig-title">Verified Certificate ID</div>
+          </div>
+          <div class="cert-sig">
+            <div id="cert-date" class="sig-line">November 2026</div>
+            <div class="sig-title">Date Certified</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Locked View (Shown if visited before all 70 levels are completed) -->
+      <div id="cert-locked-view" class="cert-locked-card hidden">
+        <div class="locked-icon">🔒</div>
+        <h2>Graduation Certificate Locked</h2>
+        <p>The Junior Astronaut Graduation Certificate is awarded only to astronauts who successfully complete all 7 Major Missions and all 70 Levels!</p>
+        <div id="cert-progress-meter" class="cert-meter">0 / 70 Levels Completed</div>
+        <p class="locked-hint">Keep exploring, cadet! Every completed level brings you closer to your official graduation!</p>
+      </div>
+
+      <div class="cert-buttons-row">
+        <button id="btn-print-certificate" class="btn-primary-glow">
+          🖨️ PRINT / DOWNLOAD PDF
+        </button>
+        <button id="btn-cert-close" class="btn-secondary">
+          CLOSE
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game Scripts (Correct Architecture Order) -->
+  <script src="js/audio.js"></script>
+  <script src="js/controls.js"></script>
+  <script src="data/missions-data.js"></script>
+  <script src="js/nasa-donki.js"></script>
+  <script src="js/nasa-osdr.js"></script>
+  <script src="js/nasa-radlab.js"></script>
+  <script src="js/nasa-marstrek.js"></script>
+  <script src="js/nasa-images.js"></script>
+  <script src="js/nasa-api.js"></script>
+  <script src="js/nasa-scenario-engine.js"></script>
+  <script src="js/health-system.js"></script>
+  <script src="js/smart-questions.js"></script>
+  <script src="js/story-engine.js"></script>
+  <script src="js/level-engine.js"></script>
+  <script src="js/education-engine.js"></script>
+  <script src="js/rewards.js"></script>
+  <script src="js/missions.js"></script>
+  <script src="js/game.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

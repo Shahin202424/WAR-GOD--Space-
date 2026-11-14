@@ -1,0 +1,10 @@
+{
+  "source": "NASA Solar System Treks (Mars Trek)",
+  "service": "WMTS (Web Map Tile Service)",
+  "officialUrl": "https://trek.nasa.gov/mars/",
+  "wmtsCapabilitiesUrl": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_MGS_MOLA_ClrShade_merge_global_463m/1.0.0/WMTSCapabilities.xml",
+  "layer": "Mars_MGS_MOLA_ClrShade_merge_global_463m",
+  "tileFormat": "image/jpeg",
+  "tileTemplate": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_MGS_MOLA_ClrShade_merge_global_463m/1.0.0/default/default028mm/{z}/{y}/{x}.jpg",
+  "capabilitiesSnippet": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Capabilities xmlns=\"http://www.opengis.net/wmts/1.0\" xmlns:ows=\"http://www.opengis.net/ows/1.1\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:gml=\"http://www.opengis.net/gml\" xsi:schemaLocation=\"http://www.opengis.net/wmts/1.0 http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd\" version=\"1.0.0\">\n    <!-- Service Identification --> \n    <ows:ServiceIdentification>\n        <ows:Title>Mars_MGS_MOLA_ClrShade_merge_global_463m</ows:Title>\n        <ows:ServiceType>OGC WMTS</ows:ServiceType>\n        <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>\n    </ows:ServiceIdentification> <!-- Operations Metadata --> \n    <ows:OperationsMetadata>\n        <ows:Operation name=\"GetCapabilities\">\n            <ows:DCP>\n                <ows:HTTP>\n                    <ows:Get xlink:href=\"https://trek.nasa.gov/tiles/Mars/EQ/Mars_MGS_MOLA_ClrShade_merge_global_463m/1.0.0/WMTSCapabilities.xml\""
+}

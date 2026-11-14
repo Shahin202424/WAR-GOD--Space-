@@ -1,0 +1,34 @@
+{
+  "source": "NASA RadLab Space Radiation Visualization",
+  "instruments": [
+    {
+      "id": "Liulin-5",
+      "spacecraft": "ISS",
+      "measurement": "Silicon telescope dosimeter"
+    },
+    {
+      "id": "RAD",
+      "spacecraft": "Curiosity Rover (MSL)",
+      "measurement": "Charged particles, neutrons, gamma rays on Mars"
+    },
+    {
+      "id": "CRaTER",
+      "spacecraft": "Lunar Reconnaissance Orbiter",
+      "measurement": "Lunar radiation environment"
+    }
+  ],
+  "baselineDoseRates": {
+    "iss": {
+      "rate": 0.22,
+      "unit": "µGy/min"
+    },
+    "marsSurface": {
+      "rate": 0.64,
+      "unit": "mSv/day"
+    },
+    "moonSurface": {
+      "rate": 1.1,
+      "unit": "mSv/day"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "system": "Web Audio API Procedural Synthesis Engine",
+  "version": "1.0",
+  "reasoning": "Procedural synthesis is chosen for 100% offline reliability, zero external bandwidth requirements, zero CORS failure points, and sub-millisecond audio response.",
+  "soundPresets": {
+    "buttonClick": { "oscillator": "sine", "frequency": [600, 300], "duration": 0.08 },
+    "astronautJump": { "oscillator": "triangle", "frequency": [220, 650], "duration": 0.20 },
+    "samplePickup": { "oscillator": "sine", "arpeggio": [523.25, 659.25, 783.99, 1046.5], "noteDuration": 0.15 },
+    "spacecraftThruster": { "oscillator": "sawtooth", "frequency": [80, 110], "duration": 0.12 },
+    "roverMotor": { "oscillator": "triangle", "frequency": [120, 160], "duration": 0.10 },
+    "stormSiren": { "oscillator": "sawtooth", "sweep": [500, 880, 500], "duration": 0.45 },
+    "missionFanfare": { "oscillator": "triangle", "chords": ["C4", "E4", "G4", "C5", "E5", "G5"], "duration": 1.65 },
+    "ambientSpaceMusic": { "polyphonic": true, "progression": ["Am7", "Fmaj7", "Cmaj7", "Gmaj"], "tempo": 3800 }
+  }
+}
+

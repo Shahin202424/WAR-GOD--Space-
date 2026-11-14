@@ -1,0 +1,28 @@
+{
+  "name": "junior-astronaut-mission-trainer",
+  "version": "2026.2.0",
+  "description": "Junior Astronaut Mission Trainer - Advanced NASA-Powered Space Survival Game for Children (20 Missions × 10 Levels = 200 Levels)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "node server.js",
+    "test": "node tests/test-game.js"
+  },
+  "keywords": [
+    "nasa",
+    "space-apps-challenge",
+    "educational-game",
+    "kids-coding",
+    "stem",
+    "moon",
+    "mars",
+    "donki",
+    "osdr",
+    "radlab",
+    "mars-trek"
+  ],
+  "author": "Junior Astronaut Mission Trainer Engineering Team",
+  "license": "MIT"
+}
+

@@ -1,0 +1,372 @@
+{
+  "status": "DEMO_DATA_BUNDLED",
+  "version": "2026.2",
+  "description": "Authentic verified NASA scientific reference datasets for the Junior Astronaut Mission Trainer, used for offline play, testing, and rate-limit fallbacks.",
+  "donki": {
+    "source": "NASA DONKI (Space Weather Database Of Notifications, Knowledge, Information)",
+    "officialUrl": "https://ccmc.gsfc.nasa.gov/DONKI/",
+    "apiUrl": "https://api.nasa.gov/DONKI/",
+    "lastUpdated": "2024-05-14T21:35:00Z",
+    "status": "DEMO MODE (Verified Historic Solar Event Archive)",
+    "events": [
+      {
+        "messageType": "FLR",
+        "messageID": "20240514-FLR-001",
+        "messageIssueTime": "2024-05-14T17:15:00Z",
+        "beginTime": "2024-05-14T16:51:00Z",
+        "peakTime": "2024-05-14T17:10:00Z",
+        "classType": "X8.7",
+        "sourceLocation": "S18W89 (Active Region AR3664)",
+        "source": "NASA SDO (Solar Dynamics Observatory) / DONKI",
+        "childTitle": "Super Giant Solar Flare (Class X8.7)!",
+        "childExplanation": "A massive solar storm erupted from Sunspot AR3664! It unleashed an intense burst of X-rays and ultraviolet radiation across the solar system.",
+        "safetyAction": "Activate radiation shielding and retreat to the subterranean habitat shelter! Martian soil (regolith) blocks dangerous solar particles.",
+        "gameplayImpact": "Radiation spikes by +45 µSv/h. Roaming astronauts must shelter within 30 seconds."
+      },
+      {
+        "messageType": "CME",
+        "messageID": "20240511-CME-002",
+        "messageIssueTime": "2024-05-11T09:20:00Z",
+        "speed": 1500,
+        "speedUnit": "km/s",
+        "halfAngle": 45,
+        "source": "NASA SOHO / LASCO & STEREO",
+        "childTitle": "Coronal Mass Ejection Traveling at 1,500 km/s!",
+        "childExplanation": "The Sun blasted billions of tons of magnetized solar plasma into interplanetary space at over 5 million km/h!",
+        "safetyAction": "Fold in external solar arrays to prevent electrical damage, and power down exposed rover instruments.",
+        "gameplayImpact": "Energy generation drops by 40%. Auxiliary batteries and RTG power must be engaged."
+      },
+      {
+        "messageType": "SEP",
+        "messageID": "20240511-SEP-001",
+        "messageIssueTime": "2024-05-11T12:00:00Z",
+        "energyRange": "> 10 MeV",
+        "protonFlux": 120,
+        "fluxUnit": "pfu (particle flux units)",
+        "source": "GOES / NASA CCMC",
+        "childTitle": "Solar Energetic Particle (SEP) Wave!",
+        "childExplanation": "Super-fast protons accelerated by solar flare magnetic fields are flying through deep space near the speed of light!",
+        "safetyAction": "Deploy heavy water-ice shields around sleeping quarters. Water hydrogen atoms absorb high-speed protons.",
+        "gameplayImpact": "Astronaut radiation exposure risk triples if outside the shielded bunker."
+      },
+      {
+        "messageType": "RBE",
+        "messageID": "20240512-RBE-001",
+        "messageIssueTime": "2024-05-12T04:30:00Z",
+        "targetRegion": "Van Allen Radiation Belts",
+        "source": "NASA Van Allen Probes / DONKI",
+        "childTitle": "Radiation Belt Enhancement (RBE)!",
+        "childExplanation": "Trapped particles around planets become energized during geomagnetic storms, creating intense electron belts.",
+        "safetyAction": "Trajectory calculations must route spacecraft quickly through radiation belts to minimize crew exposure.",
+        "gameplayImpact": "Navigation challenge: steer spacecraft along low-flux polar corridors."
+      },
+      {
+        "messageType": "GST",
+        "messageID": "20240510-GST-001",
+        "messageIssueTime": "2024-05-10T23:00:00Z",
+        "kpIndex": 9,
+        "stormLevel": "G5 (Extreme Planetary Storm)",
+        "source": "NOAA Space Weather Prediction Center / NASA DONKI",
+        "childTitle": "Historic G5 Space Weather Storm!",
+        "childExplanation": "The most intense space storm in 20 years! On Earth it sparked global auroras. On Mars, where there is no planetary magnetosphere, the radiation reaches the surface.",
+        "safetyAction": "All surface rovers must return to docking stations immediately.",
+        "gameplayImpact": "Full base emergency mode: radio communications experience total solar blackout."
+      },
+      {
+        "messageType": "HSS",
+        "messageID": "20240508-HSS-001",
+        "messageIssueTime": "2024-05-08T14:15:00Z",
+        "solarWindSpeed": 680,
+        "speedUnit": "km/s",
+        "source": "NASA ACE / DSCOVR / DONKI",
+        "childTitle": "High Speed Solar Wind Stream (HSS)!",
+        "childExplanation": "A coronal hole on the Sun is blowing a high-speed gust of solar wind across planetary orbits.",
+        "safetyAction": "Align communication high-gain dish to overcome solar wind plasma interference.",
+        "gameplayImpact": "Communication latency increases; fine-tune antenna tracking motors."
+      },
+      {
+        "messageType": "WSA_ENLIL",
+        "messageID": "20240512-ENLIL-003",
+        "messageIssueTime": "2024-05-12T16:00:00Z",
+        "modelType": "WSA-ENLIL 3D Solar Wind Simulator",
+        "estimatedTransitHours": 38,
+        "source": "NASA GSFC Community Coordinated Modeling Center (CCMC)",
+        "childTitle": "NASA WSA-ENLIL 3D Storm Simulation!",
+        "childExplanation": "NASA supercomputers simulated the CME wave moving through the inner solar system, predicting exact arrival at Moon and Mars.",
+        "safetyAction": "Review the 3D spiral map to see how many hours until the plasma front reaches your outpost.",
+        "gameplayImpact": "Gives players a 45-second strategic countdown before the storm hits."
+      }
+    ]
+  },
+  "osdr": {
+    "source": "NASA Open Science Data Repository (OSDR)",
+    "officialUrl": "https://osdr.nasa.gov/bio/repo/",
+    "apiUrl": "https://osdr.nasa.gov/osdr/data/osd/meta/",
+    "lastUpdated": "2024-06-01T12:00:00Z",
+    "studies": [
+      {
+        "accession": "OSD-87",
+        "title": "Spaceflight effects on the mouse retina: Histological, gene expression and epigenetic changes after flight on STS-135",
+        "mission": "STS-135 (Space Shuttle Atlantis)",
+        "organism": "Mus musculus (Mouse Model)",
+        "category": "Spaceflight Ocular & Vision Research",
+        "childTitle": "Protecting Astronaut Eyes in Space!",
+        "childFact": "NASA study OSD-87 proved space radiation and zero-G affect delicate eye blood vessels. Astronauts wear gold-coated helmet visors to reflect 99% of dangerous solar UV rays!",
+        "gameConnection": "Astronaut Health & Helmet Optics: Inspect visor integrity."
+      },
+      {
+        "accession": "OSD-137",
+        "title": "Plant growth and circadian rhythms in microgravity on the International Space Station",
+        "mission": "ISS Advanced Plant Habitat",
+        "organism": "Arabidopsis thaliana (Mustard Plant)",
+        "category": "Space Botany & Life Support",
+        "childTitle": "Growing Fresh Salad on the Moon and Mars!",
+        "childFact": "Plants do not need gravity to find 'up'—they follow blue and red LED light! Space greenhouse crops produce fresh oxygen and tasty greens like red romaine lettuce.",
+        "gameConnection": "Bio-Dome Greenhouse: Balance water, light, and nutrients to feed the crew."
+      },
+      {
+        "accession": "OSD-243",
+        "title": "Human bone density maintenance and muscle mass preservation during long-duration spaceflight",
+        "mission": "ISS Expeditions 50-65",
+        "organism": "Homo sapiens (Human Astronauts)",
+        "category": "Human Musculoskeletal & Exercise Physiology",
+        "childTitle": "The 2-Hour Daily Astronaut Workout!",
+        "childFact": "Because Mars has only 38% of Earth's gravity, astronaut bones can lose 1% of density each month without exercise! Astronauts use ARED vacuum-cylinder gym gear daily.",
+        "gameConnection": "Astronaut Fitness Gym: Complete daily workout routines to maintain Health."
+      },
+      {
+        "accession": "OSD-47",
+        "title": "Immune system dysregulation during long-duration orbital spaceflight",
+        "mission": "ISS Expedition Crew Blood Analysis",
+        "organism": "Homo sapiens (Astronaut Immune Cells)",
+        "category": "Spaceflight Immunology",
+        "childTitle": "Keeping Astronaut Immune Systems Strong!",
+        "childFact": "In space, T-cell immune responses can slow down. Clean air filters, healthy vitamins, and proper sleep keep astronaut immune systems working at peak performance.",
+        "gameConnection": "Medical Bay: Administer vitamin packs and air scrubbers."
+      },
+      {
+        "accession": "OSD-178",
+        "title": "Circadian rhythm entrainment and cognitive performance using solid-state LED dynamic lighting on ISS",
+        "mission": "ISS Lighting Effects Experiment",
+        "organism": "Homo sapiens (Astronaut Sleep Studies)",
+        "category": "Circadian Biology & Sleep Science",
+        "childTitle": "Good Night, Astronauts! Circadian Lighting in Space",
+        "childFact": "A day on Mars is 24 hours and 39 minutes (called a 'Sol'). NASA uses special blue-depleted evening lighting inside habitats so astronauts sleep soundly.",
+        "gameConnection": "Habitat Sleep Quarters: Adjust lighting spectrum for restful crew sleep."
+      }
+    ]
+  },
+  "radlab": {
+    "source": "NASA RadLab (Space Radiation Data & Visualization)",
+    "officialUrl": "https://visualization.osdr.nasa.gov/radlab/gui/",
+    "apiUrl": "https://visualization.osdr.nasa.gov/radlab/api/",
+    "lastUpdated": "2024-05-15T08:00:00Z",
+    "records": [
+      {
+        "spacecraft": "ISS (Low Earth Orbit)",
+        "instrument": "Liulin-5-D1 Dosimeter",
+        "timestamp": "2007-07-03T10:26:10Z",
+        "absorbedDoseRate": 0.22,
+        "unit": "µGy/min (micrograys per minute)",
+        "equivalentDoseRate": 0.55,
+        "equivalentUnit": "µSv/min (microsieverts per minute)",
+        "particleFlux": 1.4,
+        "fluxUnit": "particles/cm²·s",
+        "celestialBody": "Low Earth Orbit (Inside Earth Magnetosphere)",
+        "childExplanation": "Recorded by Liulin-5 aboard the ISS. Earth's magnetic bubble (magnetosphere) protects the station from most deep space cosmic rays."
+      },
+      {
+        "spacecraft": "Mars Science Laboratory (Curiosity Rover)",
+        "instrument": "RAD (Radiation Assessment Detector)",
+        "timestamp": "2023-11-20T14:00:00Z",
+        "absorbedDoseRate": 0.21,
+        "unit": "mGy/day (milligrays per day)",
+        "equivalentDoseRate": 0.64,
+        "equivalentUnit": "mSv/day (millisieverts per day)",
+        "particleFlux": 2.1,
+        "fluxUnit": "particles/cm²·s",
+        "celestialBody": "Mars Surface (Gale Crater)",
+        "childExplanation": "Measured directly on the red planet surface! Mars has no global magnetic field, so radiation is ~2.5 times higher than inside the ISS. Thick shelters are essential."
+      },
+      {
+        "spacecraft": "Lunar Reconnaissance Orbiter (LRO) / CRaTER",
+        "instrument": "Cosmic Ray Telescope for the Effects of Radiation",
+        "timestamp": "2023-04-12T18:00:00Z",
+        "absorbedDoseRate": 0.38,
+        "unit": "mGy/day (milligrays per day)",
+        "equivalentDoseRate": 1.1,
+        "equivalentUnit": "mSv/day (millisieverts per day)",
+        "particleFlux": 2.8,
+        "fluxUnit": "particles/cm²·s",
+        "celestialBody": "Moon Surface (Shackleton Crater)",
+        "childExplanation": "The Moon has no atmosphere or magnetic field. Galactic cosmic rays strike directly, requiring astronauts to build bases inside underground lava tubes or under lunar regolith berms."
+      }
+    ],
+    "shieldingFacts": [
+      {
+        "material": "Martian / Lunar Regolith (Soil)",
+        "effectiveness": "95% Shielding",
+        "density": "1.5 g/cm³",
+        "why": "A 1.5 to 2 meter blanket of crushed rock and sand piled over habitat domes stops almost all dangerous solar energetic particles!"
+      },
+      {
+        "material": "Water Ice Tanks",
+        "effectiveness": "90% Shielding",
+        "density": "0.92 g/cm³",
+        "why": "Water is packed with lightweight hydrogen atoms, which bounce high-energy cosmic protons away like billiard balls!"
+      },
+      {
+        "material": "Polyethylene & Carbon Nanotubes",
+        "effectiveness": "85% Shielding",
+        "density": "0.95 g/cm³",
+        "why": "Hydrogen-rich synthetic polymers make flexible, lightweight linings inside astronaut spacesuits and rover walls."
+      },
+      {
+        "material": "Thin Aluminum Hull Only",
+        "effectiveness": "35% Shielding",
+        "density": "2.7 g/cm³",
+        "why": "Heavy metals can actually produce secondary radiation when hit by cosmic rays. Layering with hydrogenous materials is much safer!"
+      }
+    ]
+  },
+  "marstrek": {
+    "source": "NASA Mars Trek / Solar System Treks (USGS / JPL)",
+    "officialUrl": "https://trek.nasa.gov/mars/",
+    "wmtsTileUrl": "https://trek.nasa.gov/tiles/Mars/EQ/Mars_MGS_MOLA_ClrShade_merge_global_463m/1.0.0/default/default028mm/{z}/{y}/{x}.jpg",
+    "layer": "Mars MGS MOLA Color Shaded Relief Merge (463m)",
+    "description": "High resolution topographic map layer from the Mars Global Surveyor Mars Orbiter Laser Altimeter (MOLA).",
+    "landmarks": [
+      {
+        "id": "jezero",
+        "name": "Jezero Crater",
+        "lat": 18.38,
+        "lon": 77.58,
+        "elevation": "-2.5 km (Below Datum)",
+        "feature": "Ancient River Delta & Lake Bed",
+        "nasaMission": "Perseverance Rover & Ingenuity Helicopter (2021-Present)",
+        "childDescription": "Billions of years ago, Jezero was filled with liquid water! Perseverance searches here for ancient microbial fossils and signs of ancient Martian life."
+      },
+      {
+        "id": "olympus",
+        "name": "Olympus Mons",
+        "lat": 18.65,
+        "lon": 226.2,
+        "elevation": "+21.9 km (Tallest in Solar System)",
+        "feature": "Mega Shield Volcano",
+        "nasaMission": "Mars Reconnaissance Orbiter (MRO)",
+        "childDescription": "The biggest volcano in the whole solar system! It is 22 kilometers high—three times taller than Mount Everest on Earth!"
+      },
+      {
+        "id": "valles",
+        "name": "Valles Marineris",
+        "lat": -13.9,
+        "lon": 300.8,
+        "elevation": "-7.0 km (Canyon Floor)",
+        "feature": "Grand Canyon of Mars",
+        "nasaMission": "Viking Orbiter & Mars Odyssey",
+        "childDescription": "A gigantic canyon system spanning over 4,000 kilometers! If placed on Earth, it would stretch all the way across North America."
+      },
+      {
+        "id": "gale",
+        "name": "Gale Crater & Mount Sharp",
+        "lat": -5.4,
+        "lon": 137.8,
+        "elevation": "-4.5 km to +5.5 km",
+        "feature": "Layered Mountain in Impact Crater",
+        "nasaMission": "Curiosity Rover (2012-Present)",
+        "childDescription": "Curiosity has been climbing Mount Sharp inside Gale Crater for over 12 years, discovering rounded pebbles that formed in ancient rushing river streams!"
+      },
+      {
+        "id": "arcadia",
+        "name": "Arcadia Planitia",
+        "lat": 39.3,
+        "lon": 189.7,
+        "elevation": "-4.0 km (Flat Smooth Plains)",
+        "feature": "Subsurface Water-Ice Glacier Sheets",
+        "nasaMission": "Mars Odyssey Gamma Ray Spectrometer",
+        "childDescription": "A smooth northern plain with vast sheets of pure water ice buried just centimeters below the red dust—ideal for future human base water extraction!"
+      },
+      {
+        "id": "shackleton",
+        "name": "Shackleton Crater (Moon South Pole)",
+        "lat": -89.9,
+        "lon": 0.0,
+        "elevation": "-4.2 km (Permanently Shadowed)",
+        "feature": "Lunar Ice Trap & Peak of Eternal Light",
+        "nasaMission": "NASA Artemis & LRO",
+        "childDescription": "At the Moon's South Pole! Deep inside its dark rim lie billions of kilograms of water ice frozen for eons, while its rim receives continuous solar power."
+      }
+    ]
+  },
+  "images": {
+    "source": "NASA Image and Video Library",
+    "officialUrl": "https://images.nasa.gov/",
+    "apiUrl": "https://images-api.nasa.gov/",
+    "photos": [
+      {
+        "nasaId": "PIA24348",
+        "title": "Perseverance Rover on Mars Surface",
+        "description": "Illustration of NASA's Mars 2020 Perseverance rover exploring Jezero Crater on Mars.",
+        "url": "https://images-assets.nasa.gov/image/PIA24348/PIA24348~medium.jpg",
+        "center": "JPL-Caltech",
+        "category": "rover"
+      },
+      {
+        "nasaId": "PIA24343",
+        "title": "Mars Perseverance Rover Landing",
+        "description": "Mars 2020 Perseverance rover descending through the Martian atmosphere during Entry, Descent, and Landing.",
+        "url": "https://images-assets.nasa.gov/image/PIA24343/PIA24343~medium.jpg",
+        "center": "JPL-Caltech",
+        "category": "landing"
+      },
+      {
+        "nasaId": "PIA16029",
+        "title": "Curiosity Rover at Rocknest, Mars",
+        "description": "NASA's Curiosity rover scooping windblown Martian dust and sand at the Rocknest site in Gale Crater.",
+        "url": "https://images-assets.nasa.gov/image/PIA16029/PIA16029~medium.jpg",
+        "center": "JPL-Caltech/MSSS",
+        "category": "surface"
+      },
+      {
+        "nasaId": "PIA23692",
+        "title": "Jezero Crater Delta on Mars",
+        "description": "Orbital image showing the dried river delta inside Jezero Crater taken by NASA's Mars Reconnaissance Orbiter.",
+        "url": "https://images-assets.nasa.gov/image/PIA23692/PIA23692~medium.jpg",
+        "center": "JPL-Caltech/Univ. of Arizona",
+        "category": "terrain"
+      },
+      {
+        "nasaId": "KSC-20200402-PH-JPL01_0001",
+        "title": "Perseverance Rover Flight Wheels",
+        "description": "Close-up of the specially designed aluminum grooved wheels that help rovers drive through soft Martian dunes.",
+        "url": "https://images-assets.nasa.gov/image/KSC-20200402-PH-JPL01_0001/KSC-20200402-PH-JPL01_0001~medium.jpg",
+        "center": "KSC/JPL",
+        "category": "rover"
+      },
+      {
+        "nasaId": "iss065e084321",
+        "title": "Astronaut Spacewalk on the International Space Station",
+        "description": "NASA astronaut conducts an extravehicular activity (EVA) outside the ISS to install solar arrays.",
+        "url": "https://images-assets.nasa.gov/image/iss065e084321/iss065e084321~medium.jpg",
+        "center": "JSC",
+        "category": "spacewalk"
+      },
+      {
+        "nasaId": "as11-40-5903",
+        "title": "Apollo 11 Astronaut on Lunar Surface",
+        "description": "Buzz Aldrin walks near the Lunar Module on the surface of the Moon during the historic Apollo 11 mission.",
+        "url": "https://images-assets.nasa.gov/image/as11-40-5903/as11-40-5903~medium.jpg",
+        "center": "JSC",
+        "category": "moon"
+      },
+      {
+        "nasaId": "KSC-20220817-PH-KLS01_0001",
+        "title": "Artemis I SLS Moon Rocket on Launch Pad 39B",
+        "description": "NASA Space Launch System rocket and Orion spacecraft standing ready at Kennedy Space Center.",
+        "url": "https://images-assets.nasa.gov/image/KSC-20220817-PH-KLS01_0001/KSC-20220817-PH-KLS01_0001~medium.jpg",
+        "center": "KSC",
+        "category": "rocket"
+      }
+    ]
+  }
+}

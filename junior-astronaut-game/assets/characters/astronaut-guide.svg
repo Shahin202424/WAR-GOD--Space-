@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" width="100%" height="100%">
+  <defs>
+    <radialGradient id="visorGold" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFE082"/>
+      <stop offset="70%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#FF6F00"/>
+    </radialGradient>
+    <linearGradient id="suitOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9100"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+  </defs>
+  <!-- Oxygen Tank -->
+  <rect x="50" y="80" width="100" height="90" rx="20" fill="#78909C"/>
+  <!-- Suit Body -->
+  <rect x="60" y="95" width="80" height="95" rx="18" fill="url(#suitOrange)"/>
+  <!-- Mission Badge on Chest -->
+  <circle cx="80" cy="125" r="9" fill="#0B3D91"/>
+  <path d="M76,128 L84,128 L80,121 Z" fill="#FFD700"/>
+  <!-- Suit Belt -->
+  <rect x="60" y="155" width="80" height="12" fill="#37474F"/>
+  <rect x="92" y="153" width="16" height="16" rx="4" fill="#00E5FF"/>
+  <!-- Helmet Dome -->
+  <circle cx="100" cy="65" r="48" fill="#ECEFF1" stroke="#B0BEC5" stroke-width="3"/>
+  <!-- Reflective Gold Visor -->
+  <ellipse cx="100" cy="65" rx="34" ry="26" fill="url(#visorGold)"/>
+  <!-- Visor Highlight Sheen -->
+  <ellipse cx="88" cy="56" rx="14" ry="7" fill="#FFFFFF" opacity="0.6" transform="rotate(-15 88 56)"/>
+  <!-- Cheerful Star Eyes inside Visor -->
+  <text x="84" y="68" font-size="14" fill="#3E2723" font-weight="bold">★</text>
+  <text x="108" y="68" font-size="14" fill="#3E2723" font-weight="bold">★</text>
+  <path d="M93,76 Q100,82 107,76" stroke="#3E2723" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>
+

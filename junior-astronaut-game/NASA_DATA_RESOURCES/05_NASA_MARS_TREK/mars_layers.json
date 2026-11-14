@@ -1,0 +1,53 @@
+{
+  "layers": [
+    {
+      "id": "Mars_MGS_MOLA_ClrShade_merge_global_463m",
+      "title": "Mars MGS MOLA Color Shaded Relief Merge (463m)",
+      "description": "Color-coded elevation derived from Mars Global Surveyor laser altimeter",
+      "resolution": "463 meters/pixel",
+      "datum": "Areoid (Mars Geoid)"
+    },
+    {
+      "id": "Mars_Viking_MDIM21_ClrMosaic_global_232m",
+      "title": "Mars Viking Colorized Global Mosaic (232m)",
+      "description": "True-color Viking orbiter surface mosaic",
+      "resolution": "232 meters/pixel"
+    },
+    {
+      "id": "Mars_MO_THEMIS_IR_Day_merge_global_100m",
+      "title": "Mars Odyssey THEMIS Infrared Day Mosaic (100m)",
+      "description": "Thermal inertia mapping for thermal rock abundance and terrain hardness",
+      "resolution": "100 meters/pixel"
+    }
+  ],
+  "keyLandmarks": [
+    {
+      "id": "jezero",
+      "name": "Jezero Crater",
+      "lat": 18.38,
+      "lon": 77.58,
+      "elev": "-2.5 km"
+    },
+    {
+      "id": "olympus",
+      "name": "Olympus Mons",
+      "lat": 18.65,
+      "lon": 226.2,
+      "elev": "+21.9 km"
+    },
+    {
+      "id": "valles",
+      "name": "Valles Marineris",
+      "lat": -13.9,
+      "lon": 300.8,
+      "elev": "-7.0 km"
+    },
+    {
+      "id": "gale",
+      "name": "Gale Crater",
+      "lat": -5.4,
+      "lon": 137.8,
+      "elev": "-4.5 km"
+    }
+  ]
+}

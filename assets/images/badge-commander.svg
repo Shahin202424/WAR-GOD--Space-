@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="54" fill="#004D40" stroke="#FFD700" stroke-width="5"/>
+  <circle cx="60" cy="60" r="44" fill="#00695C"/>
+  <!-- Mars Habitat Dome -->
+  <path d="M35,68 A25,25 0 0,1 85,68 Z" fill="#ECEFF1" stroke="#00E5FF" stroke-width="2"/>
+  <circle cx="60" cy="54" r="6" fill="#00E5FF"/>
+  <rect x="52" y="62" width="16" height="6" fill="#37474F"/>
+  <!-- Stars -->
+  <polygon points="60,26 62,31 67,31 63,34 65,39 60,36 55,39 57,34 53,31 58,31" fill="#FFD700"/>
+  <polygon points="40,32 41,35 44,35 42,37 43,40 40,38 37,40 38,37 36,35 39,35" fill="#FFD700"/>
+  <polygon points="80,32 81,35 84,35 82,37 83,40 80,38 77,40 78,37 76,35 79,35" fill="#FFD700"/>
+  <text x="60" y="102" font-family="sans-serif" font-size="9" font-weight="bold" fill="#FFD700" text-anchor="middle">BASE COMMANDER</text>
+</svg>
+

@@ -1,0 +1,2672 @@
+{
+  "source": "NASA RadLab Data API",
+  "url": "https://visualization.osdr.nasa.gov/radlab/api/?spacecraft=ISS",
+  "spacecraft": "ISS",
+  "instrument": "Liulin-5 Dosimeter",
+  "sampleRecords": [
+    {
+      "timestamp": "2007-07-03T10:26:10",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:26:10",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:26:10",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:27:39",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:27:39",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:27:39",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:29:09",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:29:09",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:29:09",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:30:39",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:30:39",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:30:39",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:32:11",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:32:11",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:32:11",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:33:41",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:33:41",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:33:41",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:35:11",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:35:11",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:35:11",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:36:40",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:36:40",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:36:40",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:38:11",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:38:11",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:38:11",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:39:41",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:39:41",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:39:41",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:41:12",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:41:12",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:41:12",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:42:42",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:42:42",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:42:42",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:44:59",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:44:59",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:44:59",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:46:29",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:46:29",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:46:29",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:48:01",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:48:01",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:48:01",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:49:31",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:49:31",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:49:31",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:51:00",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:51:00",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:51:00",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:52:30",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:52:30",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:52:30",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:54:01",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:54:01",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:54:01",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:55:32",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:55:32",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:55:32",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:57:02",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:57:02",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:57:02",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:58:32",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:58:32",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T10:58:32",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:00:02",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:00:02",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:00:02",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:01:32",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:01:32",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:01:32",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:03:02",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:03:02",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:03:02",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:04:32",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:04:32",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:04:32",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:06:04",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:06:04",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:06:04",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:07:34",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:07:34",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:07:34",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:09:03",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:09:03",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:09:03",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:10:33",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:10:33",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:10:33",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:12:04",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:12:04",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:12:04",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:13:35",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:13:35",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:13:35",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:15:05",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:15:05",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:15:05",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:16:35",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:16:35",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:16:35",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:18:05",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:18:05",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:18:05",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:19:35",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:19:35",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:19:35",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:21:05",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:21:05",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:21:05",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:22:35",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:22:35",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:22:35",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:24:07",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:24:07",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:24:07",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:25:37",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:25:37",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:25:37",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:27:06",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:27:06",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:27:06",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:28:36",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:28:36",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:28:36",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:30:07",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:30:07",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:30:07",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:31:38",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:31:38",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:31:38",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:33:08",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:33:08",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:33:08",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:34:38",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:34:38",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:34:38",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:36:08",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:36:08",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:36:08",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:37:38",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:37:38",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:37:38",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:39:08",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:39:08",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:39:08",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:40:38",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:40:38",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:40:38",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:42:10",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:42:10",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:42:10",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:43:40",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:43:40",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:43:40",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:45:09",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:45:09",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:45:09",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:46:39",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:46:39",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:46:39",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:48:10",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:48:10",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:48:10",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:49:41",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:49:41",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:49:41",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:51:11",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:51:11",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:51:11",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:52:41",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:52:41",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:52:41",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:54:11",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:54:11",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:54:11",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:55:41",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:55:41",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:55:41",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:57:11",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:57:11",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:57:11",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:58:41",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:58:41",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T11:58:41",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:00:12",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:00:12",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:00:12",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:01:43",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:01:43",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:01:43",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:03:12",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:03:12",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:03:12",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:04:42",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:04:42",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:04:42",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:06:12",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:06:12",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:06:12",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:07:44",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:07:44",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:07:44",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:10:01",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:10:01",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:10:01",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:11:31",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:11:31",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:11:31",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:13:01",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:13:01",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:13:01",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:14:32",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:14:32",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:14:32",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:16:03",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:16:03",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:16:03",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:17:33",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:17:33",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:17:33",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:19:02",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:19:02",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:19:02",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:20:32",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:20:32",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:20:32",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:22:02",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:22:02",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:22:02",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:23:34",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:23:34",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:23:34",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:25:04",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:25:04",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:25:04",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:26:34",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:26:34",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:26:34",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:28:03",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:28:03",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:28:03",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:29:34",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:29:34",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:29:34",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:31:04",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:31:04",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:31:04",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:32:35",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:32:35",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:32:35",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:34:05",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:34:05",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:34:05",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:35:36",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:35:36",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:35:36",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:37:05",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:37:05",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:37:05",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:38:35",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:38:35",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:38:35",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:40:05",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:40:05",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:40:05",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:41:37",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:41:37",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:41:37",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:43:07",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:43:07",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:43:07",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:44:37",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:44:37",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:44:37",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:46:06",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:46:06",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:46:06",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:47:37",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:47:37",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:47:37",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:49:07",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:49:07",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:49:07",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:50:38",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:50:38",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:50:38",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:52:08",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:52:08",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:52:08",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:53:39",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:53:39",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:53:39",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:55:08",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:55:08",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:55:08",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:56:38",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:56:38",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:56:38",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:58:08",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:58:08",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:58:08",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:59:40",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:59:40",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T12:59:40",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:01:10",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:01:10",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:01:10",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:02:40",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:02:40",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:02:40",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:04:09",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:04:09",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:04:09",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:05:40",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:05:40",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:05:40",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:07:10",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:07:10",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:07:10",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:08:41",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:08:41",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:08:41",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:10:11",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:10:11",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:10:11",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:11:42",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:11:42",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:11:42",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:13:11",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:13:11",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:13:11",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:14:41",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:14:41",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:14:41",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:16:11",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:16:11",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:16:11",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:17:43",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:17:43",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:17:43",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:19:13",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:19:13",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:19:13",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:20:43",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:20:43",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:20:43",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:22:12",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:22:12",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:22:12",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:23:43",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:23:43",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:23:43",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:25:13",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:25:13",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:25:13",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:26:44",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:26:44",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:26:44",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:28:14",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:28:14",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:28:14",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:29:45",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:29:45",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:29:45",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:31:14",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:31:14",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:31:14",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:32:44",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:32:44",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:32:44",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:35:03",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:35:03",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:35:03",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:36:33",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:36:33",
+      "instrument_id": "Liulin-5-D2",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:36:33",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:38:02",
+      "instrument_id": "Liulin-5-D1",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    },
+    {
+      "timestamp": "2007-07-03T13:38:02",
+      "instrument_id": "Liulin-5-D3",
+      "spacecraft": "ISS",
+      "absorbedDoseRate": 0.22,
+      "doseUnit": "µGy/min"
+    }
+  ],
+  "units": {
+    "absorbedDoseRate": "µGy/min (micrograys per minute)",
+    "equivalentDoseRate": "µSv/min (microsieverts per minute)"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "6375b4f6313d542fb5eda847",
+  "identifier": "195",
+  "identifierLowercase": "195",
+  "esID": "Xdy0TZIB5gkSzr3qDUdm",
+  "ageEuthanasia": null,
+  "ageStart": null,
+  "biospecimens": [],
+  "commonName": {
+    "id": "6375b4f7313d542fb5edbced",
+    "annotationValue": "Jellyfish",
+    "annotationValueLower": "",
+    "mapping": [],
+    "definition": "",
+    "termSource": "",
+    "termAccession": "",
+    "branch": [
+      ""
+    ],
+    "freeOntology": true
+  },
+  "description": "Flight",
+  "genotype": null,
+  "scientificName": {
+    "id": "6375b4f7313d542fb5edbcec",
+    "annotationValue": "Aurelia aurita",
+    "annotationValueLower": "",
+    "mapping": [],
+    "definition": "",
+    "termSource": "",
+    "termAccession": "",
+    "branch": [
+      ""
+    ],
+    "freeOntology": true
+  },
+  "sex": [],
+  "strain": {
+    "id": "6375b4f7313d542fb5edbceb",
+    "annotationValue": "Moon",
+    "annotationValueLower": "",
+    "mapping": [],
+    "definition": "",
+    "termSource": "",
+    "termAccession": "",
+    "branch": [
+      "",
+      "category"
+    ],
+    "freeOntology": true
+  },
+  "supplier": {
+    "id": "6375b4f7313d542fb5edbcee",
+    "annotationValue": "Principal investigator",
+    "annotationValueLower": "",
+    "mapping": [],
+    "definition": "",
+    "termSource": "",
+    "termAccession": "",
+    "branch": [
+      ""
+    ],
+    "freeOntology": true
+  },
+  "weight": null,
+  "parents": {
+    "payload": [
+      {
+        "payload": "https://osdr.nasa.gov/geode-py/ws/api/payload/SLS-1"
+      }
+    ],
+    "experiment": [
+      {
+        "experiment": "https://osdr.nasa.gov/geode-py/ws/api/experiment/OS-9"
+      }
+    ]
+  }
+}

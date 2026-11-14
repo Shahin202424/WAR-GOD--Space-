@@ -1,0 +1,2561 @@
+{
+  "hits": 1,
+  "input": "87",
+  "study": {
+    "OSD-87": {
+      "comments": [],
+      "ontologySourceReferences": [
+        {
+          "comments": [],
+          "description": "National Center for Biotechnology Information (NCBI) Organismal Classification",
+          "file": "http://data.bioontology.org/ontologies/NCBITAXON",
+          "name": "NCBITAXON",
+          "version": "2"
+        },
+        {
+          "comments": [],
+          "description": "Environment Ontology",
+          "file": "http://data.bioontology.org/ontologies/ENVO",
+          "name": "ENVO",
+          "version": "48"
+        },
+        {
+          "comments": [],
+          "description": "Experimental Factor Ontology",
+          "file": "http://data.bioontology.org/ontologies/EFO",
+          "name": "EFO",
+          "version": "166"
+        },
+        {
+          "comments": [],
+          "description": "Ontology for Biomedical Investigations",
+          "file": "http://data.bioontology.org/ontologies/OBI",
+          "name": "OBI",
+          "version": "21"
+        },
+        {
+          "comments": [],
+          "description": "National Cancer Institute Thesaurus",
+          "file": "http://data.bioontology.org/ontologies/NCIT",
+          "name": "NCIT",
+          "version": "52"
+        },
+        {
+          "comments": [],
+          "description": "Medical Subject Headings",
+          "file": "http://data.bioontology.org/ontologies/MESH",
+          "name": "MESH",
+          "version": "5"
+        },
+        {
+          "comments": [],
+          "description": "Units of Measurement Ontology",
+          "file": "http://data.bioontology.org/ontologies/UO",
+          "name": "UO",
+          "version": "43"
+        }
+      ],
+      "people": [],
+      "publications": [],
+      "studies": [
+        {
+          "assays": [
+            {
+              "characteristicCategories": [
+                {
+                  "@id": "ia0wHFkCFtrMQOZjgCOifLtJUtQqExSzlDshIElK",
+                  "characteristicType": {
+                    "@id": "SMMcU2ehdlkpWH7YT9AfD8xAB8WtpG79Bc4RFclV",
+                    "annotationValue": "Label",
+                    "comments": [],
+                    "termAccession": "",
+                    "termSource": ""
+                  }
+                }
+              ],
+              "comments": [],
+              "dataFiles": [
+                {
+                  "@id": "#data/arraydatafile-140368646784912",
+                  "comments": [],
+                  "name": "GLDS-87_microarray_14R_(Mouse430_2).CEL.gz",
+                  "type": "Array Data File"
+                },
+                {
+                  "@id": "#data/arraydatafile-140368646786496",
+                  "comments": [],
+                  "name": "GLDS-87_microarray_16R_(Mouse430_2).CEL.gz",
+                  "type": "Array Data File"
+                },
+                {
+                  "@id": "#data/arraydatafile-140368646784624",
+                  "comments": [],
+                  "name": "GLDS-87_microarray_20R_(Mouse430_2).CEL.gz",
+                  "type": "Array Data File"
+                },
+                {
+                  "@id": "#data/arraydatafile-140368679058592",
+                  "comments": [],
+                  "name": "GLDS-87_microarray_52R_(Mouse430_2).CEL.gz",
+                  "type": "Array Data File"
+                },
+                {
+                  "@id": "#data/arraydatafile-140368679058448",
+                  "comments": [],
+                  "name": "GLDS-87_microarray_54R_(Mouse430_2).CEL.gz",
+                  "type": "Array Data File"
+                },
+                {
+                  "@id": "#data/arraydatafile-140368679058304",
+                  "comments": [],
+                  "name": "GLDS-87_microarray_58R_(Mouse430_2).CEL.gz",
+                  "type": "Array Data File"
+                }
+              ],
+              "filename": "a_OSD-87_transcription-profiling_dna-microarray_affymetrix.txt",
+              "materials": {
+                "otherMaterials": [
+                  {
+                    "@id": "#material/extract-140368646786160",
+                    "characteristics": [],
+                    "name": "16R",
+                    "type": "Extract Name"
+                  },
+                  {
+                    "@id": "#material/extract-140368646784096",
+                    "characteristics": [],
+                    "name": "18R",
+                    "type": "Extract Name"
+                  },
+                  {
+                    "@id": "#material/extract-140368646784144",
+                    "characteristics": [],
+                    "name": "20R",
+                    "type": "Extract Name"
+                  },
+                  {
+                    "@id": "#material/extract-140368646783136",
+                    "characteristics": [],
+                    "name": "52R",
+                    "type": "Extract Name"
+                  },
+                  {
+                    "@id": "#material/extract-140368646785200",
+                    "characteristics": [],
+                    "name": "54R",
+                    "type": "Extract Name"
+                  },
+                  {
+                    "@id": "#material/extract-140368646785968",
+                    "characteristics": [],
+                    "name": "58R",
+                    "type": "Extract Name"
+                  }
+                ],
+                "samples": [
+                  {
+                    "@id": "#sample/140368664612720",
+                    "characteristics": [
+                      {
+                        "category": {
+                          "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                        },
+                        "value": {
+                          "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                          "annotationValue": "Mus musculus",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                          "termSource": "NCBITAXON"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                        },
+                        "value": {
+                          "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                          "annotationValue": "C57BL/6NCrl",
+                          "comments": [],
+                          "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                          "termSource": "EFO"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                        },
+                        "value": "Charles River Laboratories"
+                      },
+                      {
+                        "category": {
+                          "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                        },
+                        "unit": {
+                          "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                        },
+                        "value": "9"
+                      },
+                      {
+                        "category": {
+                          "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                        },
+                        "value": {
+                          "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                          "annotationValue": "Female",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                          "termSource": "MESH"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                        },
+                        "value": {
+                          "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                          "annotationValue": "Retina",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                          "termSource": "MESH"
+                        }
+                      }
+                    ],
+                    "derivesFrom": [],
+                    "factorValues": [
+                      {
+                        "@id": "",
+                        "category": {
+                          "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                        },
+                        "value": {
+                          "@id": "XJ2x9G5FYOhyGGbYDO0xkevuzcPxPnzdf1nFa9fv",
+                          "annotationValue": "Space Flight",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D013026",
+                          "termSource": "MESH"
+                        }
+                      }
+                    ],
+                    "name": "Mmus_C57-6CR_RTN_FLT_Rep1"
+                  },
+                  {
+                    "@id": "#sample/140368664611904",
+                    "characteristics": [
+                      {
+                        "category": {
+                          "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                        },
+                        "value": {
+                          "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                          "annotationValue": "Mus musculus",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                          "termSource": "NCBITAXON"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                        },
+                        "value": {
+                          "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                          "annotationValue": "C57BL/6NCrl",
+                          "comments": [],
+                          "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                          "termSource": "EFO"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                        },
+                        "value": "Charles River Laboratories"
+                      },
+                      {
+                        "category": {
+                          "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                        },
+                        "unit": {
+                          "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                        },
+                        "value": "9"
+                      },
+                      {
+                        "category": {
+                          "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                        },
+                        "value": {
+                          "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                          "annotationValue": "Female",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                          "termSource": "MESH"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                        },
+                        "value": {
+                          "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                          "annotationValue": "Retina",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                          "termSource": "MESH"
+                        }
+                      }
+                    ],
+                    "derivesFrom": [],
+                    "factorValues": [
+                      {
+                        "@id": "",
+                        "category": {
+                          "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                        },
+                        "value": {
+                          "@id": "XJ2x9G5FYOhyGGbYDO0xkevuzcPxPnzdf1nFa9fv",
+                          "annotationValue": "Space Flight",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D013026",
+                          "termSource": "MESH"
+                        }
+                      }
+                    ],
+                    "name": "Mmus_C57-6CR_RTN_FLT_Rep2"
+                  },
+                  {
+                    "@id": "#sample/140368664609888",
+                    "characteristics": [
+                      {
+                        "category": {
+                          "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                        },
+                        "value": {
+                          "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                          "annotationValue": "Mus musculus",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                          "termSource": "NCBITAXON"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                        },
+                        "value": {
+                          "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                          "annotationValue": "C57BL/6NCrl",
+                          "comments": [],
+                          "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                          "termSource": "EFO"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                        },
+                        "value": "Charles River Laboratories"
+                      },
+                      {
+                        "category": {
+                          "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                        },
+                        "unit": {
+                          "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                        },
+                        "value": "9"
+                      },
+                      {
+                        "category": {
+                          "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                        },
+                        "value": {
+                          "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                          "annotationValue": "Female",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                          "termSource": "MESH"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                        },
+                        "value": {
+                          "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                          "annotationValue": "Retina",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                          "termSource": "MESH"
+                        }
+                      }
+                    ],
+                    "derivesFrom": [],
+                    "factorValues": [
+                      {
+                        "@id": "",
+                        "category": {
+                          "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                        },
+                        "value": {
+                          "@id": "XJ2x9G5FYOhyGGbYDO0xkevuzcPxPnzdf1nFa9fv",
+                          "annotationValue": "Space Flight",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D013026",
+                          "termSource": "MESH"
+                        }
+                      }
+                    ],
+                    "name": "Mmus_C57-6CR_RTN_FLT_Rep3"
+                  },
+                  {
+                    "@id": "#sample/140368664609936",
+                    "characteristics": [
+                      {
+                        "category": {
+                          "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                        },
+                        "value": {
+                          "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                          "annotationValue": "Mus musculus",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                          "termSource": "NCBITAXON"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                        },
+                        "value": {
+                          "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                          "annotationValue": "C57BL/6NCrl",
+                          "comments": [],
+                          "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                          "termSource": "EFO"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                        },
+                        "value": "Charles River Laboratories"
+                      },
+                      {
+                        "category": {
+                          "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                        },
+                        "unit": {
+                          "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                        },
+                        "value": "9"
+                      },
+                      {
+                        "category": {
+                          "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                        },
+                        "value": {
+                          "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                          "annotationValue": "Female",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                          "termSource": "MESH"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                        },
+                        "value": {
+                          "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                          "annotationValue": "Retina",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                          "termSource": "MESH"
+                        }
+                      }
+                    ],
+                    "derivesFrom": [],
+                    "factorValues": [
+                      {
+                        "@id": "",
+                        "category": {
+                          "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                        },
+                        "value": {
+                          "@id": "uSz5i4QBr7uZce9ezDEYPeTPfWANK23t9aUzRnAy",
+                          "annotationValue": "Ground Control",
+                          "comments": [],
+                          "termAccession": "",
+                          "termSource": ""
+                        }
+                      }
+                    ],
+                    "name": "Mmus_C57-6CR_RTN_GC_Rep1"
+                  },
+                  {
+                    "@id": "#sample/140368664610272",
+                    "characteristics": [
+                      {
+                        "category": {
+                          "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                        },
+                        "value": {
+                          "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                          "annotationValue": "Mus musculus",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                          "termSource": "NCBITAXON"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                        },
+                        "value": {
+                          "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                          "annotationValue": "C57BL/6NCrl",
+                          "comments": [],
+                          "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                          "termSource": "EFO"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                        },
+                        "value": "Charles River Laboratories"
+                      },
+                      {
+                        "category": {
+                          "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                        },
+                        "unit": {
+                          "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                        },
+                        "value": "9"
+                      },
+                      {
+                        "category": {
+                          "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                        },
+                        "value": {
+                          "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                          "annotationValue": "Female",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                          "termSource": "MESH"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                        },
+                        "value": {
+                          "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                          "annotationValue": "Retina",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                          "termSource": "MESH"
+                        }
+                      }
+                    ],
+                    "derivesFrom": [],
+                    "factorValues": [
+                      {
+                        "@id": "",
+                        "category": {
+                          "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                        },
+                        "value": {
+                          "@id": "uSz5i4QBr7uZce9ezDEYPeTPfWANK23t9aUzRnAy",
+                          "annotationValue": "Ground Control",
+                          "comments": [],
+                          "termAccession": "",
+                          "termSource": ""
+                        }
+                      }
+                    ],
+                    "name": "Mmus_C57-6CR_RTN_GC_Rep2"
+                  },
+                  {
+                    "@id": "#sample/140368664612048",
+                    "characteristics": [
+                      {
+                        "category": {
+                          "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                        },
+                        "value": {
+                          "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                          "annotationValue": "Mus musculus",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                          "termSource": "NCBITAXON"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                        },
+                        "value": {
+                          "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                          "annotationValue": "C57BL/6NCrl",
+                          "comments": [],
+                          "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                          "termSource": "EFO"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                        },
+                        "value": "Charles River Laboratories"
+                      },
+                      {
+                        "category": {
+                          "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                        },
+                        "unit": {
+                          "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                        },
+                        "value": "9"
+                      },
+                      {
+                        "category": {
+                          "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                        },
+                        "value": {
+                          "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                          "annotationValue": "Female",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                          "termSource": "MESH"
+                        }
+                      },
+                      {
+                        "category": {
+                          "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                        },
+                        "value": {
+                          "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                          "annotationValue": "Retina",
+                          "comments": [],
+                          "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                          "termSource": "MESH"
+                        }
+                      }
+                    ],
+                    "derivesFrom": [],
+                    "factorValues": [
+                      {
+                        "@id": "",
+                        "category": {
+                          "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                        },
+                        "value": {
+                          "@id": "uSz5i4QBr7uZce9ezDEYPeTPfWANK23t9aUzRnAy",
+                          "annotationValue": "Ground Control",
+                          "comments": [],
+                          "termAccession": "",
+                          "termSource": ""
+                        }
+                      }
+                    ],
+                    "name": "Mmus_C57-6CR_RTN_GC_Rep3"
+                  }
+                ],
+                "sources": []
+              },
+              "measurementType": {
+                "@id": "g6S1hAjGR0NNCILfY0DQ6X6xgXl8evYNaueFOrx3",
+                "annotationValue": "transcription profiling",
+                "comments": [],
+                "termAccession": "http://purl.obolibrary.org/obo/OBI_0000424",
+                "termSource": "OBI"
+              },
+              "processSequence": [
+                {
+                  "@id": "#process/140368679058736",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679155360"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#material/extract-140368646786160"
+                    }
+                  ],
+                  "nextProcess": {
+                    "@id": "#process/140368679056576"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": ""
+                },
+                {
+                  "@id": "#process/140368679056528",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679155360"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#material/extract-140368646784096"
+                    }
+                  ],
+                  "nextProcess": {
+                    "@id": "#process/140368679056048"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": ""
+                },
+                {
+                  "@id": "#process/140368679055904",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679155360"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#material/extract-140368646784144"
+                    }
+                  ],
+                  "nextProcess": {
+                    "@id": "#process/140368679055472"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": ""
+                },
+                {
+                  "@id": "#process/140368679056912",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679155360"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#material/extract-140368646783136"
+                    }
+                  ],
+                  "nextProcess": {
+                    "@id": "#process/140368679057056"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": ""
+                },
+                {
+                  "@id": "#process/140368679057152",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679155360"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#material/extract-140368646785200"
+                    }
+                  ],
+                  "nextProcess": {
+                    "@id": "#process/140368679056096"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": ""
+                },
+                {
+                  "@id": "#process/140368679056480",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679155360"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#material/extract-140368646785968"
+                    }
+                  ],
+                  "nextProcess": {
+                    "@id": "#process/140368679057104"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": ""
+                },
+                {
+                  "@id": "#process/140368679056576",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156080"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368679056336"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679058736"
+                  }
+                },
+                {
+                  "@id": "#process/140368679056048",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156080"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368672518448"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679056528"
+                  }
+                },
+                {
+                  "@id": "#process/140368679055472",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156080"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368672518880"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679055904"
+                  }
+                },
+                {
+                  "@id": "#process/140368679057056",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156080"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368672521136"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679056912"
+                  }
+                },
+                {
+                  "@id": "#process/140368679056096",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156080"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368672521712"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679057152"
+                  }
+                },
+                {
+                  "@id": "#process/140368679057104",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156080"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368672520944"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679056480"
+                  }
+                },
+                {
+                  "@id": "#process/140368679056336",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156368"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368679056240"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679056576"
+                  }
+                },
+                {
+                  "@id": "#process/140368672518448",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156368"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368672521568"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679056048"
+                  }
+                },
+                {
+                  "@id": "#process/140368672518880",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156368"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368672520992"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679055472"
+                  }
+                },
+                {
+                  "@id": "#process/140368672521136",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156368"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368672519312"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679057056"
+                  }
+                },
+                {
+                  "@id": "#process/140368672521712",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156368"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368672520464"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679056096"
+                  }
+                },
+                {
+                  "@id": "#process/140368672520944",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368679156368"
+                  },
+                  "inputs": [],
+                  "nextProcess": {
+                    "@id": "#process/140368672520752"
+                  },
+                  "outputs": [],
+                  "parameterValues": [],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679057104"
+                  }
+                },
+                {
+                  "@id": "#process/140368679056240",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368684255168"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#data/arraydatafile-140368646784912"
+                    }
+                  ],
+                  "outputs": [],
+                  "parameterValues": [
+                    {
+                      "category": {
+                        "@id": "#140368662206160"
+                      },
+                      "value": "GLDS-87_array_raw_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662208416"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662206256"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    }
+                  ],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368679056336"
+                  }
+                },
+                {
+                  "@id": "#process/140368672521568",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368684255168"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#data/arraydatafile-140368646786496"
+                    }
+                  ],
+                  "outputs": [],
+                  "parameterValues": [
+                    {
+                      "category": {
+                        "@id": "#140368662206160"
+                      },
+                      "value": "GLDS-87_array_raw_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662208416"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662206256"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    }
+                  ],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368672518448"
+                  }
+                },
+                {
+                  "@id": "#process/140368672520992",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368684255168"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#data/arraydatafile-140368646784624"
+                    }
+                  ],
+                  "outputs": [],
+                  "parameterValues": [
+                    {
+                      "category": {
+                        "@id": "#140368662206160"
+                      },
+                      "value": "GLDS-87_array_raw_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662208416"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662206256"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    }
+                  ],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368672518880"
+                  }
+                },
+                {
+                  "@id": "#process/140368672519312",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368684255168"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#data/arraydatafile-140368679058592"
+                    }
+                  ],
+                  "outputs": [],
+                  "parameterValues": [
+                    {
+                      "category": {
+                        "@id": "#140368662206160"
+                      },
+                      "value": "GLDS-87_array_raw_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662208416"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662206256"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    }
+                  ],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368672521136"
+                  }
+                },
+                {
+                  "@id": "#process/140368672520464",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368684255168"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#data/arraydatafile-140368679058448"
+                    }
+                  ],
+                  "outputs": [],
+                  "parameterValues": [
+                    {
+                      "category": {
+                        "@id": "#140368662206160"
+                      },
+                      "value": "GLDS-87_array_raw_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662208416"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662206256"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    }
+                  ],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368672521712"
+                  }
+                },
+                {
+                  "@id": "#process/140368672520752",
+                  "comments": [],
+                  "date": "",
+                  "executesProtocol": {
+                    "@id": "#140368684255168"
+                  },
+                  "inputs": [
+                    {
+                      "@id": "#data/arraydatafile-140368679058304"
+                    }
+                  ],
+                  "outputs": [],
+                  "parameterValues": [
+                    {
+                      "category": {
+                        "@id": "#140368662206160"
+                      },
+                      "value": "GLDS-87_array_raw_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662208416"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    },
+                    {
+                      "category": {
+                        "@id": "#140368662206256"
+                      },
+                      "value": "GLDS-87_array_normalized_expression_probeset_GLmicroarray.csv,GLDS-87_array_normalized_intensities_probe_GLmicroarray.csv"
+                    }
+                  ],
+                  "performer": "",
+                  "previousProcess": {
+                    "@id": "#process/140368672520944"
+                  }
+                }
+              ],
+              "technologyPlatform": "Affymetrix",
+              "technologyType": {
+                "@id": "6cUZRXhqs0sv6zGHSX5CHdgNEvEbkHRo6OszkRMf",
+                "annotationValue": "DNA microarray",
+                "comments": [],
+                "termAccession": "http://purl.obolibrary.org/obo/OBI_0400148",
+                "termSource": "OBI"
+              },
+              "unitCategories": []
+            }
+          ],
+          "characteristicCategories": [
+            {
+              "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd",
+              "characteristicType": {
+                "@id": "hue7IHAQqkw5gMB4uOdC2ccD60D8eDTD2fLg2Wgw",
+                "annotationValue": "Age at launch",
+                "comments": [],
+                "termAccession": "",
+                "termSource": ""
+              }
+            },
+            {
+              "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar",
+              "characteristicType": {
+                "@id": "DNC42gZ7Hh7SYKZMoVbYCkIOijdlatQdd1KXgtNE",
+                "annotationValue": "Animal Source",
+                "comments": [],
+                "termAccession": "",
+                "termSource": ""
+              }
+            },
+            {
+              "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30",
+              "characteristicType": {
+                "@id": "LHmZyms6bEdkUL5QaHV42kuzI1ImB8hJYAjcA0Wu",
+                "annotationValue": "Material Type",
+                "comments": [],
+                "termAccession": "",
+                "termSource": ""
+              }
+            },
+            {
+              "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi",
+              "characteristicType": {
+                "@id": "mlZb2gHEWcShWNCdbe4vOMc8yyux2QmLr9Ip5N4s",
+                "annotationValue": "Organism",
+                "comments": [],
+                "termAccession": "",
+                "termSource": ""
+              }
+            },
+            {
+              "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U",
+              "characteristicType": {
+                "@id": "4NvzjulEenL0i6uciPoqUQWn3xmFB6NV8jn8Rd3u",
+                "annotationValue": "Sex",
+                "comments": [],
+                "termAccession": "",
+                "termSource": ""
+              }
+            },
+            {
+              "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv",
+              "characteristicType": {
+                "@id": "KDpgw0pDlLHtAJkV7Jw6VNfPUV7IJPPX15B9aQWK",
+                "annotationValue": "Strain",
+                "comments": [],
+                "termAccession": "",
+                "termSource": ""
+              }
+            }
+          ],
+          "comments": [
+            {
+              "name": "Acknowledgments",
+              "value": "The authors would like to thank NASA Human Research Program and the UTMB Genomics Core for their help in conducting analysis of microarray results"
+            },
+            {
+              "name": "DOI",
+              "value": "10.26030/37zx-z780"
+            },
+            {
+              "name": "Data Source Accession",
+              "value": ""
+            },
+            {
+              "name": "Data Source Link",
+              "value": ""
+            },
+            {
+              "name": "Experiment Platform",
+              "value": "Animal Enclosure Module (AEM)"
+            },
+            {
+              "name": "Flight Program",
+              "value": "Space Transportation System (STS)"
+            },
+            {
+              "name": "Funding",
+              "value": "Funding was provided by NASA Human Research Program"
+            },
+            {
+              "name": "Identifiers",
+              "value": ""
+            },
+            {
+              "name": "Managing NASA Center",
+              "value": "Johnson Space Center (JSC)"
+            },
+            {
+              "name": "Mission End",
+              "value": "07/21/2011"
+            },
+            {
+              "name": "Mission Link",
+              "value": "https://osdr.nasa.gov/bio/repo/data/missions/STS-135"
+            },
+            {
+              "name": "Mission Name",
+              "value": "STS-135"
+            },
+            {
+              "name": "Mission Start",
+              "value": "07/08/2011"
+            },
+            {
+              "name": "Project Identifier",
+              "value": "BSP135"
+            },
+            {
+              "name": "Project Link",
+              "value": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=1857"
+            },
+            {
+              "name": "Project Title",
+              "value": "Spaceflight Effects on the Mouse Retina: Histological, Gene Expression and Epigenetic Changes After Flight"
+            },
+            {
+              "name": "Project Type",
+              "value": "Spaceflight study"
+            },
+            {
+              "name": "Space Program",
+              "value": "NASA"
+            },
+            {
+              "name": "Study Grant Number",
+              "value": "ARC00XX119"
+            }
+          ],
+          "description": "We report the findings of an animal experiment onboard STS-135 investigating the molecular aspects of the impact of spaceflight on retinal biology by performing differential gene expression profiling between mice flown onboard STS-135 and their ground control counterparts.",
+          "factors": [
+            {
+              "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k",
+              "comments": [],
+              "factorName": "Spaceflight",
+              "factorType": {
+                "@id": "XJ2x9G5FYOhyGGbYDO0xkevuzcPxPnzdf1nFa9fv",
+                "annotationValue": "Space Flight",
+                "comments": [],
+                "termAccession": "http://purl.bioontology.org/ontology/MESH/D013026",
+                "termSource": "MESH"
+              }
+            }
+          ],
+          "identifier": "OSD-87",
+          "materials": {
+            "otherMaterials": [],
+            "samples": [
+              {
+                "@id": "#sample/140368664612720",
+                "characteristics": [
+                  {
+                    "category": {
+                      "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                    },
+                    "value": {
+                      "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                      "annotationValue": "Mus musculus",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                      "termSource": "NCBITAXON"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                    },
+                    "value": {
+                      "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                      "annotationValue": "C57BL/6NCrl",
+                      "comments": [],
+                      "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                      "termSource": "EFO"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                    },
+                    "value": "Charles River Laboratories"
+                  },
+                  {
+                    "category": {
+                      "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                    },
+                    "unit": {
+                      "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                    },
+                    "value": "9"
+                  },
+                  {
+                    "category": {
+                      "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                    },
+                    "value": {
+                      "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                      "annotationValue": "Female",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                      "termSource": "MESH"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                    },
+                    "value": {
+                      "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                      "annotationValue": "Retina",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                      "termSource": "MESH"
+                    }
+                  }
+                ],
+                "derivesFrom": [],
+                "factorValues": [
+                  {
+                    "@id": "",
+                    "category": {
+                      "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                    },
+                    "value": {
+                      "@id": "XJ2x9G5FYOhyGGbYDO0xkevuzcPxPnzdf1nFa9fv",
+                      "annotationValue": "Space Flight",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D013026",
+                      "termSource": "MESH"
+                    }
+                  }
+                ],
+                "name": "Mmus_C57-6CR_RTN_FLT_Rep1"
+              },
+              {
+                "@id": "#sample/140368664611904",
+                "characteristics": [
+                  {
+                    "category": {
+                      "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                    },
+                    "value": {
+                      "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                      "annotationValue": "Mus musculus",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                      "termSource": "NCBITAXON"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                    },
+                    "value": {
+                      "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                      "annotationValue": "C57BL/6NCrl",
+                      "comments": [],
+                      "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                      "termSource": "EFO"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                    },
+                    "value": "Charles River Laboratories"
+                  },
+                  {
+                    "category": {
+                      "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                    },
+                    "unit": {
+                      "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                    },
+                    "value": "9"
+                  },
+                  {
+                    "category": {
+                      "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                    },
+                    "value": {
+                      "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                      "annotationValue": "Female",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                      "termSource": "MESH"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                    },
+                    "value": {
+                      "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                      "annotationValue": "Retina",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                      "termSource": "MESH"
+                    }
+                  }
+                ],
+                "derivesFrom": [],
+                "factorValues": [
+                  {
+                    "@id": "",
+                    "category": {
+                      "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                    },
+                    "value": {
+                      "@id": "XJ2x9G5FYOhyGGbYDO0xkevuzcPxPnzdf1nFa9fv",
+                      "annotationValue": "Space Flight",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D013026",
+                      "termSource": "MESH"
+                    }
+                  }
+                ],
+                "name": "Mmus_C57-6CR_RTN_FLT_Rep2"
+              },
+              {
+                "@id": "#sample/140368664609888",
+                "characteristics": [
+                  {
+                    "category": {
+                      "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                    },
+                    "value": {
+                      "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                      "annotationValue": "Mus musculus",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                      "termSource": "NCBITAXON"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                    },
+                    "value": {
+                      "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                      "annotationValue": "C57BL/6NCrl",
+                      "comments": [],
+                      "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                      "termSource": "EFO"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                    },
+                    "value": "Charles River Laboratories"
+                  },
+                  {
+                    "category": {
+                      "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                    },
+                    "unit": {
+                      "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                    },
+                    "value": "9"
+                  },
+                  {
+                    "category": {
+                      "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                    },
+                    "value": {
+                      "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                      "annotationValue": "Female",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                      "termSource": "MESH"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                    },
+                    "value": {
+                      "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                      "annotationValue": "Retina",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                      "termSource": "MESH"
+                    }
+                  }
+                ],
+                "derivesFrom": [],
+                "factorValues": [
+                  {
+                    "@id": "",
+                    "category": {
+                      "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                    },
+                    "value": {
+                      "@id": "XJ2x9G5FYOhyGGbYDO0xkevuzcPxPnzdf1nFa9fv",
+                      "annotationValue": "Space Flight",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D013026",
+                      "termSource": "MESH"
+                    }
+                  }
+                ],
+                "name": "Mmus_C57-6CR_RTN_FLT_Rep3"
+              },
+              {
+                "@id": "#sample/140368664609936",
+                "characteristics": [
+                  {
+                    "category": {
+                      "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                    },
+                    "value": {
+                      "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                      "annotationValue": "Mus musculus",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                      "termSource": "NCBITAXON"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                    },
+                    "value": {
+                      "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                      "annotationValue": "C57BL/6NCrl",
+                      "comments": [],
+                      "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                      "termSource": "EFO"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                    },
+                    "value": "Charles River Laboratories"
+                  },
+                  {
+                    "category": {
+                      "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                    },
+                    "unit": {
+                      "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                    },
+                    "value": "9"
+                  },
+                  {
+                    "category": {
+                      "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                    },
+                    "value": {
+                      "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                      "annotationValue": "Female",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                      "termSource": "MESH"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                    },
+                    "value": {
+                      "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                      "annotationValue": "Retina",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                      "termSource": "MESH"
+                    }
+                  }
+                ],
+                "derivesFrom": [],
+                "factorValues": [
+                  {
+                    "@id": "",
+                    "category": {
+                      "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                    },
+                    "value": {
+                      "@id": "uSz5i4QBr7uZce9ezDEYPeTPfWANK23t9aUzRnAy",
+                      "annotationValue": "Ground Control",
+                      "comments": [],
+                      "termAccession": "",
+                      "termSource": ""
+                    }
+                  }
+                ],
+                "name": "Mmus_C57-6CR_RTN_GC_Rep1"
+              },
+              {
+                "@id": "#sample/140368664610272",
+                "characteristics": [
+                  {
+                    "category": {
+                      "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                    },
+                    "value": {
+                      "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                      "annotationValue": "Mus musculus",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                      "termSource": "NCBITAXON"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                    },
+                    "value": {
+                      "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                      "annotationValue": "C57BL/6NCrl",
+                      "comments": [],
+                      "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                      "termSource": "EFO"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                    },
+                    "value": "Charles River Laboratories"
+                  },
+                  {
+                    "category": {
+                      "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                    },
+                    "unit": {
+                      "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                    },
+                    "value": "9"
+                  },
+                  {
+                    "category": {
+                      "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                    },
+                    "value": {
+                      "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                      "annotationValue": "Female",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                      "termSource": "MESH"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                    },
+                    "value": {
+                      "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                      "annotationValue": "Retina",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                      "termSource": "MESH"
+                    }
+                  }
+                ],
+                "derivesFrom": [],
+                "factorValues": [
+                  {
+                    "@id": "",
+                    "category": {
+                      "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                    },
+                    "value": {
+                      "@id": "uSz5i4QBr7uZce9ezDEYPeTPfWANK23t9aUzRnAy",
+                      "annotationValue": "Ground Control",
+                      "comments": [],
+                      "termAccession": "",
+                      "termSource": ""
+                    }
+                  }
+                ],
+                "name": "Mmus_C57-6CR_RTN_GC_Rep2"
+              },
+              {
+                "@id": "#sample/140368664612048",
+                "characteristics": [
+                  {
+                    "category": {
+                      "@id": "399SzhBQzExSjIr4pjc31bssabQKEbyJxfwbrlYi"
+                    },
+                    "value": {
+                      "@id": "JKhyIMCPeEBSTtL99Bs8dvh4fvwF2o6qk21yVlUG",
+                      "annotationValue": "Mus musculus",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/NCBITAXON/10090",
+                      "termSource": "NCBITAXON"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "ckWn7OLUT8oddpV7c5wlAhWzZKOWJ2rc9Atk6Kgv"
+                    },
+                    "value": {
+                      "@id": "6Qc2UDjHFXJb6SDy81HoJmzdNM5p9RYlqkjPku4Y",
+                      "annotationValue": "C57BL/6NCrl",
+                      "comments": [],
+                      "termAccession": "http://www.ebi.ac.uk/efo/EFO_0011030",
+                      "termSource": "EFO"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "XDEs6awxjisEtbiWvl63H0u8wp96sI5N6Uo3uxar"
+                    },
+                    "value": "Charles River Laboratories"
+                  },
+                  {
+                    "category": {
+                      "@id": "Giz62t2ExagmEJ9lPh5wpZglgSRuDzpvVXSDFgnd"
+                    },
+                    "unit": {
+                      "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2"
+                    },
+                    "value": "9"
+                  },
+                  {
+                    "category": {
+                      "@id": "KCzWlZo7KEPqFn8gM6YdlLjQ41WWXWTC5I7BYv8U"
+                    },
+                    "value": {
+                      "@id": "wYfmNXXKA89HVKoGYL5zHDatYawmSRUyCIyyPoNz",
+                      "annotationValue": "Female",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D005260",
+                      "termSource": "MESH"
+                    }
+                  },
+                  {
+                    "category": {
+                      "@id": "49juZ4FGB57I9ooIymVnW2cIJgBOgOHjamafkg30"
+                    },
+                    "value": {
+                      "@id": "qOtKWEweHr53DbDNhXpLhmq1PiFwhkJyfS12wcdt",
+                      "annotationValue": "Retina",
+                      "comments": [],
+                      "termAccession": "http://purl.bioontology.org/ontology/MESH/D012160",
+                      "termSource": "MESH"
+                    }
+                  }
+                ],
+                "derivesFrom": [],
+                "factorValues": [
+                  {
+                    "@id": "",
+                    "category": {
+                      "@id": "rrAHixexWAdqOKNaj15Ezk66kWZSMcprcBRZfg1k"
+                    },
+                    "value": {
+                      "@id": "uSz5i4QBr7uZce9ezDEYPeTPfWANK23t9aUzRnAy",
+                      "annotationValue": "Ground Control",
+                      "comments": [],
+                      "termAccession": "",
+                      "termSource": ""
+                    }
+                  }
+                ],
+                "name": "Mmus_C57-6CR_RTN_GC_Rep3"
+              }
+            ],
+            "sources": [
+              {
+                "@id": "#source/140368662204816",
+                "characteristics": [],
+                "name": "AEM Control 16"
+              },
+              {
+                "@id": "#source/140368662207840",
+                "characteristics": [],
+                "name": "AEM Control 18"
+              },
+              {
+                "@id": "#source/140368662205056",
+                "characteristics": [],
+                "name": "AEM Control 20"
+              },
+              {
+                "@id": "#source/140368664611616",
+                "characteristics": [],
+                "name": "Flight 52"
+              },
+              {
+                "@id": "#source/140368664612384",
+                "characteristics": [],
+                "name": "Flight 54"
+              },
+              {
+                "@id": "#source/140368664608928",
+                "characteristics": [],
+                "name": "Flight 58"
+              }
+            ]
+          },
+          "people": [
+            {
+              "@id": "",
+              "address": "",
+              "affiliation": "Univerisities Space Research Association",
+              "comments": [
+                {
+                  "name": "Study Person REF",
+                  "value": ""
+                }
+              ],
+              "email": "susana.b.zanello@nasa.gov",
+              "fax": "",
+              "firstName": "Susana",
+              "lastName": "Zanello",
+              "midInitials": "B",
+              "phone": "",
+              "roles": [
+                {
+                  "@id": "TvNKe31hWJctxSfyHzZoIOaRvzXuTW1RG6RisnqH",
+                  "annotationValue": "Principal Investigator",
+                  "comments": [],
+                  "termAccession": "",
+                  "termSource": ""
+                }
+              ]
+            }
+          ],
+          "processSequence": [
+            {
+              "@id": "#process/140368664612000",
+              "comments": [],
+              "date": "",
+              "executesProtocol": {
+                "@id": "#140368684255312"
+              },
+              "inputs": [
+                {
+                  "@id": "#sample/140368664609936"
+                },
+                {
+                  "@id": "#sample/140368664610272"
+                },
+                {
+                  "@id": "#sample/140368664612048"
+                },
+                {
+                  "@id": "#sample/140368664612720"
+                },
+                {
+                  "@id": "#sample/140368664611904"
+                },
+                {
+                  "@id": "#sample/140368664609888"
+                }
+              ],
+              "nextProcess": {
+                "@id": "#process/140368665138080"
+              },
+              "outputs": [],
+              "parameterValues": [
+                {
+                  "category": {
+                    "@id": "#140368679156944"
+                  },
+                  "value": {
+                    "@id": "ts7BuUIObjatarAFcQDvdRGve22IjW7kztEU6PpS",
+                    "annotationValue": "Animal Enclosure Module (AEM)",
+                    "comments": [],
+                    "termAccession": "",
+                    "termSource": ""
+                  }
+                },
+                {
+                  "category": {
+                    "@id": "#140368679156464"
+                  },
+                  "value": {
+                    "@id": "iXb2NxwjbKom2FpNcMprJreKydDiNT8WBlLcF8Np",
+                    "annotationValue": "12 h light/dark cycle",
+                    "comments": [],
+                    "termAccession": "https://osdr.nasa.gov/",
+                    "termSource": ""
+                  }
+                },
+                {
+                  "category": {
+                    "@id": "#140368679157136"
+                  },
+                  "unit": {
+                    "@id": "HD9tp2SLnR0wXOGt79HG2Wa7QP9SkYuVwR6aCHGl"
+                  },
+                  "value": "1"
+                }
+              ],
+              "performer": ""
+            },
+            {
+              "@id": "#process/140368658486992",
+              "comments": [],
+              "date": "",
+              "executesProtocol": {
+                "@id": "#140368679154112"
+              },
+              "inputs": [],
+              "nextProcess": {
+                "@id": "#process/140368664611760"
+              },
+              "outputs": [],
+              "parameterValues": [
+                {
+                  "category": {
+                    "@id": "#140368679154784"
+                  },
+                  "value": {
+                    "@id": "FAVeS9jtVtLfYbAbKw5Qfs0lKKt88wngSafu8XWf",
+                    "annotationValue": "non-irradiated",
+                    "comments": [],
+                    "termAccession": "http://purl.obolibrary.org/obo/RBO_00005025",
+                    "termSource": ""
+                  }
+                },
+                {
+                  "category": {
+                    "@id": "#140368679155024"
+                  },
+                  "unit": {
+                    "@id": "HD9tp2SLnR0wXOGt79HG2Wa7QP9SkYuVwR6aCHGl"
+                  },
+                  "value": "12.76"
+                },
+                {
+                  "category": {
+                    "@id": "#140368679156416"
+                  },
+                  "unit": {
+                    "@id": "SHRIFGDc50meal3f60aKnlHyc0mXQoqiyW1BovrZ"
+                  },
+                  "value": "0"
+                },
+                {
+                  "category": {
+                    "@id": "#140368679154448"
+                  },
+                  "unit": {
+                    "@id": "SHRIFGDc50meal3f60aKnlHyc0mXQoqiyW1BovrZ"
+                  },
+                  "value": "0"
+                },
+                {
+                  "category": {
+                    "@id": "#140368679154256"
+                  },
+                  "unit": {
+                    "@id": "SHRIFGDc50meal3f60aKnlHyc0mXQoqiyW1BovrZ"
+                  },
+                  "value": "0"
+                }
+              ],
+              "performer": "",
+              "previousProcess": {
+                "@id": "#process/140368664612000"
+              }
+            },
+            {
+              "@id": "#process/140368665138080",
+              "comments": [],
+              "date": "",
+              "executesProtocol": {
+                "@id": "#140368679154112"
+              },
+              "inputs": [],
+              "nextProcess": {
+                "@id": "#process/140368664611760"
+              },
+              "outputs": [],
+              "parameterValues": [
+                {
+                  "category": {
+                    "@id": "#140368679154784"
+                  },
+                  "value": {
+                    "@id": "QQKTSpM72bRyUZQ6ExbBfwREEBrWtKBBty1sCDSu",
+                    "annotationValue": "space radiation",
+                    "comments": [],
+                    "termAccession": "http://purl.obolibrary.org/obo/RBO_00000002",
+                    "termSource": ""
+                  }
+                },
+                {
+                  "category": {
+                    "@id": "#140368679155024"
+                  },
+                  "unit": {
+                    "@id": "HD9tp2SLnR0wXOGt79HG2Wa7QP9SkYuVwR6aCHGl"
+                  },
+                  "value": "12.76"
+                },
+                {
+                  "category": {
+                    "@id": "#140368679156416"
+                  },
+                  "unit": {
+                    "@id": "SHRIFGDc50meal3f60aKnlHyc0mXQoqiyW1BovrZ"
+                  },
+                  "value": "4.66"
+                },
+                {
+                  "category": {
+                    "@id": "#140368679154448"
+                  },
+                  "unit": {
+                    "@id": "SHRIFGDc50meal3f60aKnlHyc0mXQoqiyW1BovrZ"
+                  },
+                  "value": "5.46"
+                },
+                {
+                  "category": {
+                    "@id": "#140368679154256"
+                  },
+                  "unit": {
+                    "@id": "SHRIFGDc50meal3f60aKnlHyc0mXQoqiyW1BovrZ"
+                  },
+                  "value": "3.26"
+                }
+              ],
+              "performer": "",
+              "previousProcess": {
+                "@id": "#process/140368664612000"
+              }
+            },
+            {
+              "@id": "#process/140368664611760",
+              "comments": [],
+              "date": "",
+              "executesProtocol": {
+                "@id": "#140368679155696"
+              },
+              "inputs": [],
+              "outputs": [],
+              "parameterValues": [
+                {
+                  "category": {
+                    "@id": "#140368679155120"
+                  },
+                  "value": {
+                    "@id": "CiyRhpc9AGTZXmy1MfHewCErmnxz2ohW4vAR5RIu",
+                    "annotationValue": "RNALater",
+                    "comments": [],
+                    "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C63348",
+                    "termSource": "NCIT"
+                  }
+                },
+                {
+                  "category": {
+                    "@id": "#140368679156800"
+                  },
+                  "value": ""
+                }
+              ],
+              "performer": "",
+              "previousProcess": {
+                "@id": "#process/140368665138080"
+              }
+            }
+          ],
+          "protocols": [
+            {
+              "@id": "#140368684255312",
+              "comments": [],
+              "components": [],
+              "description": "Mice were flown onboard STS-135 that lifted off at 11:29 am EDT on July 8, 2011 and landed at 5:57 am on July 21, 2011. The mission duration was 12 days, 18 hours, 28 minutes.\n\nFemale 9 to 11 week-old C57BL/6CR mice were assigned to one of two experimental groups: Flight (FLT) and Animal Enclosure Module (AEM) ground controls. The flight animals were housed in AEMs identical to the ground controls, and our analysis focuses on the comparison between these two conditions.\n\nThe AEM was located in the middeck locker of the Space Shuttle, and the temperature was set at 3 to 8C above the environmental middeck temperature. Lighting of 14 lux was set to a 12 hour day/12 hour night cycle for both FLT and AEM habitats.",
+              "name": "Animal Husbandry",
+              "parameters": [
+                {
+                  "@id": "#140368679156944",
+                  "parameterName": {
+                    "@id": "chcbpPOnbztCP5a8gder20kbeBy8yfrIbBtJ6OvI",
+                    "annotationValue": "habitat",
+                    "comments": [],
+                    "termAccession": "http://purl.obolibrary.org/obo/ENVO_01000739",
+                    "termSource": "ENVO"
+                  }
+                },
+                {
+                  "@id": "#140368679157136",
+                  "parameterName": {
+                    "@id": "D5q9qdy8AeOkLnlwyGWMGlTAZFuFMhITEukbzQ3d",
+                    "annotationValue": "Euthanasia time after landing",
+                    "comments": [],
+                    "termAccession": "",
+                    "termSource": ""
+                  }
+                },
+                {
+                  "@id": "#140368679156464",
+                  "parameterName": {
+                    "@id": "wU8HV0MjusT6E4b8LvZKgeUuQFCbtMBF5AoRz4Ts",
+                    "annotationValue": "light cycle",
+                    "comments": [],
+                    "termAccession": "http://purl.obolibrary.org/obo/NCIT_C90419",
+                    "termSource": "NCIT"
+                  }
+                }
+              ],
+              "protocolType": {
+                "@id": "xdSNat2IkKnJlRzuwlV3pkvbSnb5E5nexrMWWYZF",
+                "annotationValue": "Animal Husbandry",
+                "comments": [],
+                "termAccession": "http://purl.bioontology.org/ontology/MESH/D000822",
+                "termSource": "MESH"
+              },
+              "uri": "",
+              "version": ""
+            },
+            {
+              "@id": "#140368679154112",
+              "comments": [],
+              "components": [],
+              "description": "The absorbed dose from ionizing radiation received by the flight specimens was estimated using TLD passive dosimeters located in the middeck of the space shuttle, where the payload was located. More specifically, we computed the average between three dosimeters (DLOC1, DLOC2, and DLOC3) for the mission and we divided it by the total duration of the mission to estimate the average absorbed dose rate in mGy/day. This dose rate did not include any shielding effects from the hardware where the specimens resided. The total absorbed dose in water was then computed by simply multiplying the average dose rate with the duration of the experiment. The duration of the experiment was defined as the time in space during which the specimen was 'living'. Once the specimen was frozen or fixed, the experiment was considered stopped. A table with these detailed computations for all space shuttle datasets is available on GeneLab at <a href=\"https://www.nasa.gov/reference/osdr-environmental-data/.\" target=\"_\" >https://www.nasa.gov/reference/osdr-environmental-data/.</a>  The ground samples were not assessed for radiation exposure.",
+              "name": "Radiation Dosimetry",
+              "parameters": [
+                {
+                  "@id": "#140368679155024",
+                  "parameterName": {
+                    "@id": "z4j7s4yBblzCrTfrq3rlmMsTI1a9j39jzGe7ZiwF",
+                    "annotationValue": "Exposure Duration",
+                    "comments": [],
+                    "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                    "termSource": "NCIT"
+                  }
+                },
+                {
+                  "@id": "#140368679156416",
+                  "parameterName": {
+                    "@id": "3S62aGAEJZHOn1zrJxL7jZThZzw5SyW42muaoHnk",
+                    "annotationValue": "Absorbed Radiation Dose",
+                    "comments": [],
+                    "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                    "termSource": "NCIT"
+                  }
+                },
+                {
+                  "@id": "#140368679154448",
+                  "parameterName": {
+                    "@id": "JIhvr19OPuKYaIIDBmZMmdWWcwcta9yuTWMkpX9I",
+                    "annotationValue": "Maximum Total Absorbed Dose",
+                    "comments": [],
+                    "termAccession": "",
+                    "termSource": ""
+                  }
+                },
+                {
+                  "@id": "#140368679154256",
+                  "parameterName": {
+                    "@id": "ksBHavA267nWarMfGtZP5BvvNPdyQ4hU6onbRTrg",
+                    "annotationValue": "Minimum Total Absorbed Dose",
+                    "comments": [],
+                    "termAccession": "",
+                    "termSource": ""
+                  }
+                },
+                {
+                  "@id": "#140368679154784",
+                  "parameterName": {
+                    "@id": "lqLio6cqwPLox7b7EOdXHJ7fG5xPrPcfHhTTkQZ8",
+                    "annotationValue": "ionizing radiation",
+                    "comments": [],
+                    "termAccession": "http://purl.obolibrary.org/obo/RBO_00000116",
+                    "termSource": ""
+                  }
+                }
+              ],
+              "protocolType": {
+                "@id": "oeL7CIx3xTUaOYnaaSaD0iufxsgLOKadiZx99kXJ",
+                "annotationValue": "Radiation Dosimetry",
+                "comments": [],
+                "termAccession": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+                "termSource": "NCIT"
+              },
+              "uri": "",
+              "version": ""
+            },
+            {
+              "@id": "#140368679155696",
+              "comments": [],
+              "components": [],
+              "description": "Both eyes from three animals for each group (n equals 3) were used in this study, one for gene expression analysis and the other for histology. After euthanasia at day one of landing, one eye of each mouse was enucleated and fixed for histologic examination. The contralateral eye was placed in RNA preservative (RNAlater) until further dissection, which was performed by making an incision by scalpel to separate the posterior eye cup, removing the lens and vitreous and carefully scraping the retina. The retina was then placed again in RNAlater and processed for gene expression profiling by microarray analysis.",
+              "name": "sample collection",
+              "parameters": [
+                {
+                  "@id": "#140368679156800",
+                  "parameterName": {
+                    "@id": "61mpJeBmV9Y5BEvAImmp28SWa286XWbVfznlqMWH",
+                    "annotationValue": "Sample Storage Method",
+                    "comments": [],
+                    "termAccession": "",
+                    "termSource": ""
+                  }
+                },
+                {
+                  "@id": "#140368679155120",
+                  "parameterName": {
+                    "@id": "Xv0M9pE0aUSn3kUQ9KB3uLrvghDs8N2ndH4aj4iN",
+                    "annotationValue": "Sample Preservation Method",
+                    "comments": [],
+                    "termAccession": "",
+                    "termSource": ""
+                  }
+                }
+              ],
+              "protocolType": {
+                "@id": "BoISbVScpFNlMi6l3avcm9esrFaeCAOUR4FXVA8g",
+                "annotationValue": "sample collection",
+                "comments": [],
+                "termAccession": "",
+                "termSource": "NCIT"
+              },
+              "uri": "",
+              "version": ""
+            },
+            {
+              "@id": "#140368679155360",
+              "comments": [],
+              "components": [],
+              "description": "Total RNA was then isolated from the retina using the AllPrep DNA/RNA Micro kit (Qiagen, Valencia, CA) and analyzed for quality using an Agilent 2100 Bioanalyzer (Agilent Technologies, Inc., Santa Clara, CA).",
+              "name": "RNA extraction",
+              "parameters": [
+                {
+                  "@id": "#140368684254928",
+                  "parameterName": {
+                    "@id": "3Hq6ViAPdhnUQVpmPN4g5qe1Sc2CIbQALaTc3jdF",
+                    "annotationValue": "",
+                    "comments": [],
+                    "termAccession": "",
+                    "termSource": ""
+                  }
+                }
+              ],
+              "protocolType": {
+                "@id": "G57TXaKS3oYy8fkSizGwGoHPi0fsaPc3YQ9i0NrM",
+                "annotationValue": "RNA extraction",
+                "comments": [],
+                "termAccession": "",
+                "termSource": "NCIT"
+              },
+              "uri": "",
+              "version": ""
+            },
+            {
+              "@id": "#140368679156080",
+              "comments": [],
+              "components": [],
+              "description": "Microarray gene expression analysis was performed at the University of Texas Medical Branch (UTMB) at Galveston Molecular Genomics Core. Please contact UTMB for protocol details.",
+              "name": "labeling",
+              "parameters": [
+                {
+                  "@id": "#140368684254160",
+                  "parameterName": {
+                    "@id": "QJGsRoQDCXlCKuCrHHK8VwufMozhG7Lr20gBJSg8",
+                    "annotationValue": "Array Design REF",
+                    "comments": [],
+                    "termAccession": "https://osdr.nasa.gov/",
+                    "termSource": ""
+                  }
+                }
+              ],
+              "protocolType": {
+                "@id": "FesOgHanqsrUSofIyFouXthDDBtRrrqszMiCHKrj",
+                "annotationValue": "labeling",
+                "comments": [],
+                "termAccession": "",
+                "termSource": "NCIT"
+              },
+              "uri": "",
+              "version": ""
+            },
+            {
+              "@id": "#140368679156368",
+              "comments": [],
+              "components": [],
+              "description": "Microarray gene expression analysis was performed at the\nUniversity of Texas Medical Branch (UTMB) at Galveston Molecular Genomics Core using Affymetrix Mouse 430 2.0 GeneChip (Affymetrix, Inc., Santa Clara, CA) with\nAffymetrix Expression Console and Transcriptome Analysis Console for secondary analysis.",
+              "name": "nucleic acid hybridization",
+              "parameters": [
+                {
+                  "@id": "#140368662205872",
+                  "parameterName": {
+                    "@id": "cy1hzEt83WGJnRPkO194KvsDmG8CbP1I2YD8jSqA",
+                    "annotationValue": "Array Data File",
+                    "comments": [],
+                    "termAccession": "https://osdr.nasa.gov/",
+                    "termSource": ""
+                  }
+                }
+              ],
+              "protocolType": {
+                "@id": "LgedGZ2VQIBnofG7ICoS8FjNZSIfdDaHpBzBudwZ",
+                "annotationValue": "nucleic acid hybridization",
+                "comments": [],
+                "termAccession": "",
+                "termSource": "NCIT"
+              },
+              "uri": "",
+              "version": ""
+            },
+            {
+              "@id": "#140368684255168",
+              "comments": [],
+              "components": [],
+              "description": "Data were processed as described in GL-DPPD-7114 (<a href=\"https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md\" target=\"_\" >https://github.com/nasa/GeneLab_Data_Processing/blob/master/Microarray/Affymetrix/Pipeline_GL-DPPD-7114_Versions/GL-DPPD-7114.md</a>) using NF_MAAffymetrix version 1.0.5 (https://github.com/nasa/GeneLab_Data_Processing/tree/NF_MAAffymetrix_1.0.5/Microarray/Affymetrix/Workflow_Documentation/NF_MAAffymetrix). In short, a RunSheet containing raw data file location and processing metadata from the study's *ISA.zip file was generated using dp_tools (version 1.3.4). The raw array data files were loaded into R (version 4.1.3) using oligo (version 1.58.0). Raw data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). The raw probe level intensity data was background corrected and normalized across arrays via the oligo (version 1.58.0) quantile method. Normalized probe level data quality assurance density plot, pseudo images, MA plots, and boxplots were generated using oligo (version 1.58.0). Normalized probe level data was summarized to the probeset level using the oligo (version 1.58.0) RMA method. Ensembl gene ID mappings were retrieved for each probeset using biomaRt (version 2.50.0), Ensembl database (ensembl.org, release 107). Differential expression analysis was performed in R (version 4.1.3) using limma (version 3.50.3); all groups were compared pairwise for each probeset to generate a moderated t-statistic and associated p- and adjusted p-value. Gene annotations were assigned for every probeset that mapped to exactly one Ensembl gene ID using the custom annotation tables generated in-house as detailed in GL-DPPD-7110 (<a href=\"https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md\" target=\"_\" >https://github.com/nasa/GeneLab_Data_Processing/blob/GL_RefAnnotTable_1.0.0/GeneLab_Reference_Annotations/Pipeline_GL-DPPD-7110_Versions/GL-DPPD-7110/GL-DPPD-7110.md</a>), with STRINGdb (version 2.8.4), PANTHER.db (version 1.0.11), and org.Mm.eg.db (version 3.15.0).",
+              "name": "GeneLab microarray data processing protocol",
+              "parameters": [
+                {
+                  "@id": "#140368662206160",
+                  "parameterName": {
+                    "@id": "K118AXUyIEG1ZYS51uguXcjP8ntWEkDmw8vHFKwv",
+                    "annotationValue": "Raw Intensities Table",
+                    "comments": [],
+                    "termAccession": "https://osdr.nasa.gov/",
+                    "termSource": ""
+                  }
+                },
+                {
+                  "@id": "#140368662208416",
+                  "parameterName": {
+                    "@id": "RpH2RFEgfhHH505JAZKmbs1qSQxqTEWunuvVxI6T",
+                    "annotationValue": "Normalized Expression Table",
+                    "comments": [],
+                    "termAccession": "https://osdr.nasa.gov/",
+                    "termSource": ""
+                  }
+                },
+                {
+                  "@id": "#140368662206256",
+                  "parameterName": {
+                    "@id": "c4UoiNar4sA4ty0VawH08rhaf4AR7F8drWBP91tt",
+                    "annotationValue": "differential expression analysis data",
+                    "comments": [],
+                    "termAccession": "http://purl.obolibrary.org/obo/OBI_0002584",
+                    "termSource": "OBI"
+                  }
+                }
+              ],
+              "protocolType": {
+                "@id": "gHRCpX8ZCZrvMb1jv0PpSihU4DurynDUUnkOSfet",
+                "annotationValue": "data transformation",
+                "comments": [],
+                "termAccession": "http://purl.obolibrary.org/obo/OBI_0200000",
+                "termSource": "OBI"
+              },
+              "uri": "",
+              "version": ""
+            }
+          ],
+          "publicReleaseDate": "16-Dec-2016",
+          "publications": [
+            {
+              "authorList": "Theriot Corey A., Zanello Susana B.",
+              "comments": [],
+              "doi": "10.2478/gsr-2014-0001",
+              "pubMedID": "",
+              "status": {
+                "@id": "LmdAvi3HYaAIgsfwpY1sWHGrDR5sHm3luQJDg1Ay",
+                "annotationValue": "published",
+                "comments": [],
+                "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+                "termSource": "EFO"
+              },
+              "title": "Molecular Effects of Spaceflight in the Mouse Eye after Space Shuttle Mission STS-135"
+            }
+          ],
+          "studyDesignDescriptors": [
+            {
+              "@id": "h0shfCKjUqWbQbBHH9iZLu4lX5tHwbttyXVJiTw5",
+              "annotationValue": "transcription profiling by array",
+              "comments": [],
+              "termAccession": "http://www.ebi.ac.uk/efo/EFO_0002768",
+              "termSource": "EFO"
+            }
+          ],
+          "submissionDate": "30-Sep-2016",
+          "title": "Spaceflight effects on the mouse retina: Histological, gene expression and epigenetic changes after flight on STS-135",
+          "unitCategories": [
+            {
+              "@id": "HD9tp2SLnR0wXOGt79HG2Wa7QP9SkYuVwR6aCHGl",
+              "annotationValue": "day",
+              "comments": [],
+              "termAccession": "http://purl.obolibrary.org/obo/UO_0000033",
+              "termSource": "UO"
+            },
+            {
+              "@id": "SHRIFGDc50meal3f60aKnlHyc0mXQoqiyW1BovrZ",
+              "annotationValue": "milligray",
+              "comments": [],
+              "termAccession": "http://purl.obolibrary.org/obo/UO_0000142",
+              "termSource": "UO"
+            },
+            {
+              "@id": "EN78WNpG5NZElsP9sj1OVW0TMS8NNuDr1mEzIqd2",
+              "annotationValue": "week",
+              "comments": [],
+              "termAccession": "http://purl.obolibrary.org/obo/UO_0000034",
+              "termSource": "UO"
+            }
+          ]
+        }
+      ],
+      "version": 8
+    }
+  },
+  "success": true
+}
