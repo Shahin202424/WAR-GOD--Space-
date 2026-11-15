@@ -14,6 +14,7 @@ const path = require('path');
 const url = require('url');
 
 // Backend NASA Modular Services
+const handleNasaRequest = require('./backend/nasaApiHandler');
 const NasaOpenApiService = require('./backend/services/nasaOpenApiService');
 const DonkiService = require('./backend/services/donkiService');
 const OsdrService = require('./backend/services/osdrService');
@@ -100,138 +101,11 @@ const server = http.createServer(async (req, res) => {
   const pathname = parsedUrl.pathname;
 
   // ---------------------------------------------------------------------------
-  // 1. API PROXY ENDPOINTS
+  // 1. API PROXY ENDPOINTS (Handled by unified NASA API handler)
   // ---------------------------------------------------------------------------
-  if (pathname.startsWith('/api/nasa/')) {
-    const endpoint = pathname.replace('/api/nasa/', '');
-
-    if (endpoint === 'status') {
-      res.writeHead(200, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({
-        server: 'SPACE WARS Proxy Server',
-        status: 'ONLINE',
-        hasCustomApiKey: NASA_API_KEY !== 'DEMO_KEY' && NASA_API_KEY !== 'YOUR_NASA_API_KEY' && NASA_API_KEY !== 'PASTE_MY_EXISTING_NASA_KEY_HERE',
-        endpoints: {
-          donki: NASA_DONKI_BASE_URL,
-          donkiCcmc: process.env.NASA_CCMC_DONKI_BASE_URL || 'https://ccmc.gsfc.nasa.gov/DONKI/WS/get',
-          osdr: NASA_OSDR_BASE_URL,
-          radlab: NASA_RADLAB_BASE_URL,
-          marstrek: NASA_MARS_TREK_BASE_URL
-        },
-        timestamp: new Date().toISOString()
-      }));
-      return;
-    }
-
-    if (endpoint === 'summary') {
-      try {
-        const summary = await NasaMissionDataService.getTelemetrySummary(NASA_API_KEY);
-        res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify(summary));
-        return;
-      } catch (err) {
-        res.writeHead(500, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: err.message }));
-        return;
-      }
-    }
-
-    if (endpoint === 'scenario') {
-      const missionId = parseInt(parsedUrl.query.mission || '1', 10);
-      const levelId = parseInt(parsedUrl.query.level || '1', 10);
-      const archetype = parsedUrl.query.archetype || 'systems';
-
-      try {
-        const scenario = await NasaMissionDataService.getScenarioForLevel(missionId, levelId, archetype);
-        res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify(scenario));
-        return;
-      } catch (err) {
-        res.writeHead(500, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: err.message }));
-        return;
-      }
-    }
-
-    if (endpoint === 'donki') {
-      const startDate = parsedUrl.query.startDate || null;
-      try {
-        const result = await DonkiService.getNotifications(startDate);
-        res.writeHead(200, { 'Content-Type': 'application/json', 'X-NASA-Status': result.status });
-        res.end(JSON.stringify(result.events));
-        return;
-      } catch (err) {
-        res.writeHead(200, { 'Content-Type': 'application/json', 'X-NASA-Mode': 'ARCHIVED_FALLBACK' });
-        res.end(JSON.stringify(demoData?.donki?.events || []));
-        return;
-      }
-    }
-
-    if (endpoint === 'osdr') {
-      try {
-        const result = await OsdrService.getStudy87();
-        res.writeHead(200, { 'Content-Type': 'application/json', 'X-NASA-Status': result.status });
-        res.end(JSON.stringify(result.study));
-        return;
-      } catch (err) {
-        res.writeHead(200, { 'Content-Type': 'application/json', 'X-NASA-Mode': 'ARCHIVED_FALLBACK' });
-        res.end(JSON.stringify({ study: { 'OSD-87': { studies: [{ title: 'Spaceflight effects on mouse retina (STS-135)' }] } } }));
-        return;
-      }
-    }
-
-    if (endpoint === 'radlab') {
-      try {
-        const result = await RadlabService.getIssTelemetry();
-        res.writeHead(200, { 'Content-Type': 'application/json', 'X-NASA-Status': result.status });
-        res.end(JSON.stringify(result));
-        return;
-      } catch (err) {
-        res.writeHead(200, { 'Content-Type': 'application/json', 'X-NASA-Mode': 'ARCHIVED_FALLBACK' });
-        res.end(JSON.stringify({ status: 'CACHED', records: [{ timestamp: '2007-07-03T10:26:10Z', absorbedDoseRate: 0.22, unit: 'µGy/min' }] }));
-        return;
-      }
-    }
-
-    if (endpoint === 'marstrek') {
-      try {
-        const result = MarsTrekService.getLandmarks();
-        res.writeHead(200, { 'Content-Type': 'application/json', 'X-NASA-Status': result.status });
-        res.end(JSON.stringify(result));
-        return;
-      } catch (err) {
-        res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ status: 'OFFLINE', landmarks: [] }));
-        return;
-      }
-    }
-
-    if (endpoint === 'images') {
-      const q = parsedUrl.query.q || 'mars rover';
-      try {
-        const result = await NasaOpenApiService.searchPhotos(q);
-        res.writeHead(200, { 'Content-Type': 'application/json', 'X-NASA-Status': result.status });
-        res.end(JSON.stringify({ collection: { items: result.items } }));
-        return;
-      } catch (err) {
-        res.writeHead(200, { 'Content-Type': 'application/json', 'X-NASA-Mode': 'ARCHIVED_FALLBACK' });
-        res.end(JSON.stringify({ collection: { items: (demoData?.images?.photos || []).map(p => ({ data: [p], links: [{ href: p.url }] })) } }));
-        return;
-      }
-    }
-
-    if (endpoint === 'apod') {
-      try {
-        const result = await NasaOpenApiService.getApod(NASA_API_KEY);
-        res.writeHead(200, { 'Content-Type': 'application/json', 'X-NASA-Status': result.status });
-        res.end(JSON.stringify(result.data));
-        return;
-      } catch (err) {
-        res.writeHead(500, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: err.message }));
-        return;
-      }
-    }
+  if (pathname.startsWith('/api/')) {
+    await handleNasaRequest(req, res);
+    return;
   }
 
   // ---------------------------------------------------------------------------
