@@ -75,6 +75,11 @@ async function handleNasaRequest(req, res, explicitEndpoint = null) {
     res.end(JSON.stringify(data));
   };
 
+  if (endpoint === 'health') {
+    const healthHandler = require('../api/health');
+    return healthHandler(req, res);
+  }
+
   if (endpoint === 'status') {
     return sendJson(200, {
       server: 'SPACE WARS Proxy Server',

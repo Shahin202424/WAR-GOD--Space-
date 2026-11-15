@@ -100,15 +100,22 @@ async function runTests() {
   // 3. API Serverless Functions Correctly Configured
   // ---------------------------------------------------------------------------
   console.log('\n--- 3. Testing API Serverless Functions ---');
+  const apiHealthPath = path.join(__dirname, '..', 'api', 'health.js');
+  const mirrorApiHealthPath = path.join(__dirname, '..', 'junior-astronaut-game', 'api', 'health.js');
   const apiNasaEndpointPath = path.join(__dirname, '..', 'api', 'nasa', '[endpoint].js');
   const apiNasaIndexPath = path.join(__dirname, '..', 'api', 'nasa', 'index.js');
   const apiIndexPath = path.join(__dirname, '..', 'api', 'index.js');
   const backendHandlerPath = path.join(__dirname, '..', 'backend', 'nasaApiHandler.js');
 
+  assertTest(fs.existsSync(apiHealthPath), 'root api/health.js Vercel serverless function exists');
+  assertTest(fs.existsSync(mirrorApiHealthPath), 'mirror junior-astronaut-game/api/health.js exists');
   assertTest(fs.existsSync(apiNasaEndpointPath), 'api/nasa/[endpoint].js exists');
   assertTest(fs.existsSync(apiNasaIndexPath), 'api/nasa/index.js exists');
   assertTest(fs.existsSync(apiIndexPath), 'api/index.js exists');
   assertTest(fs.existsSync(backendHandlerPath), 'backend/nasaApiHandler.js exists');
+
+  const healthHandler = require('../api/health');
+  assertTest(typeof healthHandler === 'function', 'api/health.js exports callable async handler function');
 
   const handler = require('../backend/nasaApiHandler');
   assertTest(typeof handler === 'function', 'nasaApiHandler exports callable async function');
@@ -145,6 +152,33 @@ async function runTests() {
     };
 
     return { req, res };
+  }
+
+  // Test 3.0: /api/health Direct Vercel Serverless Function & OPTIONS
+  {
+    const { req, res } = createMockReqRes({ method: 'OPTIONS', url: '/api/health' });
+    await healthHandler(req, res);
+    assertTest(res.statusCode === 204, 'api/health.js OPTIONS returns 204 No Content');
+    assertTest(res.getHeaders()['access-control-allow-origin'] === '*', 'api/health.js returns Access-Control-Allow-Origin: *');
+  }
+  {
+    const { req, res } = createMockReqRes({ method: 'GET', url: '/api/health' });
+    await healthHandler(req, res);
+    assertTest(res.statusCode === 200, 'api/health.js GET returns HTTP 200');
+    assertTest(res.getHeaders()['content-type'].includes('application/json'), 'api/health.js returns Content-Type: application/json');
+    const json = res.getJson();
+    assertTest(json.status === 'OK', 'api/health.js response contains status "OK"');
+    assertTest(json.service === 'SPACE WARS', 'api/health.js response contains service "SPACE WARS"');
+    assertTest(typeof json.timestamp === 'string' && !isNaN(Date.parse(json.timestamp)), 'api/health.js response contains valid ISO timestamp');
+  }
+  {
+    // Test through universal handler mapping
+    const { req, res } = createMockReqRes({ method: 'GET', url: '/api/health' });
+    await handler(req, res);
+    assertTest(res.statusCode === 200, 'Universal API handler routes /api/health with HTTP 200');
+    const json = res.getJson();
+    assertTest(json.status === 'OK', 'Universal handler returns status "OK" for /api/health');
+    assertTest(json.service === 'SPACE WARS', 'Universal handler returns service "SPACE WARS" for /api/health');
   }
 
   // Test 3.1: OPTIONS preflight
