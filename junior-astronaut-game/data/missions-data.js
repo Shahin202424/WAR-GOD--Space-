@@ -1,5 +1,5 @@
 /**
- * Junior Astronaut Mission Trainer - Master Missions & Levels Database
+ * SPACE WARS - Master Missions & Levels Database
  * Exactly 7 Major Missions × 10 Levels = 70 Total Playable Levels
  * Built with authentic NASA scientific references and 100% pure playable gameplay.
  * ZERO QUESTIONS • ZERO QUIZZES • 100% ACTION GAMEPLAY
@@ -929,7 +929,7 @@ const MISSIONS_DATA = [
         story: "Solar storm subsided! Safely return to the station airlock, seal inner hatch, and complete the radiation-safe EVA.",
         objective: "Return to the station airlock, seal the hatch, and complete mission decontamination.",
         nasaConnection: "NASA Space Radiation Health Operations & Post-EVA Protocols",
-        realNasaFact: "Careful monitoring and shelter protocols allow junior astronauts to explore deep space and return safely home!",
+        realNasaFact: "Careful monitoring and shelter protocols allow space explorers to explore deep space and return safely home!",
         params: { airlockClosed: true },
         reward: { stars: 3, sciencePoints: 150 }
       }
@@ -1084,7 +1084,7 @@ const MISSIONS_DATA = [
         story: "Atmospheric re-entry! Guide the Orion capsule through fiery heat shield ionization and deploy 3 giant parachutes for safe Pacific Ocean splashdown!",
         objective: "Fire re-entry thrusters, survive heat shield deceleration, and deploy parachutes for a safe ocean splashdown!",
         nasaConnection: "NASA Artemis 1 Orion Capsule Pacific Ocean Splashdown & Navy Recovery Operations",
-        realNasaFact: "Orion's heat shield endures 2,800°C (5,000°F) at Mach 32 before three 35-meter parachutes gently drop the spacecraft into the sea. Welcome home, Junior Astronaut!",
+        realNasaFact: "Orion's heat shield endures 2,800°C (5,000°F) at Mach 32 before three 35-meter parachutes gently drop the spacecraft into the sea. Welcome home, SPACE WARS Commander!",
         params: { targetAltitude: 0, maxSpeed: 100 },
         reward: { stars: 3, sciencePoints: 200 }
       }

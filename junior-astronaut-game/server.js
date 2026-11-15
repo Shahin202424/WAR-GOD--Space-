@@ -1,5 +1,5 @@
 /**
- * Junior Astronaut Mission Trainer - Lightweight Backend Proxy & Static Server
+ * SPACE WARS - Lightweight Backend Proxy & Static Server
  * Built with native Node.js (zero external dependencies required)
  * 
  * Provides:
@@ -108,7 +108,7 @@ const server = http.createServer(async (req, res) => {
     if (endpoint === 'status') {
       res.writeHead(200, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({
-        server: 'Junior Astronaut Proxy Server',
+        server: 'SPACE WARS Proxy Server',
         status: 'ONLINE',
         hasCustomApiKey: NASA_API_KEY !== 'DEMO_KEY' && NASA_API_KEY !== 'YOUR_NASA_API_KEY' && NASA_API_KEY !== 'PASTE_MY_EXISTING_NASA_KEY_HERE',
         endpoints: {
@@ -247,7 +247,7 @@ const server = http.createServer(async (req, res) => {
   fs.stat(filePath, (err, stats) => {
     if (err || !stats.isFile()) {
       res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
-      res.end('404 Not Found - Junior Astronaut Mission Trainer');
+      res.end('404 Not Found - SPACE WARS');
       return;
     }
 
@@ -270,7 +270,7 @@ let currentPort = PORT;
 function startServer(portToTry) {
   server.listen(portToTry, () => {
     console.log(`================================================================`);
-    console.log(`🚀 Junior Astronaut Mission Trainer Server Running!`);
+    console.log(`🚀 SPACE WARS Server Running!`);
     console.log(`📡 URL: http://localhost:${portToTry}`);
     console.log(`🔒 Proxy: /api/nasa/* enabled (protecting client credentials)`);
     console.log(`================================================================`);

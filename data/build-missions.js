@@ -1,6 +1,6 @@
 /**
  * Builder script to generate comprehensive, verified, high-quality
- * 20 Missions × 10 Levels = 200 Levels dataset for Junior Astronaut Mission Trainer.
+ * 20 Missions × 10 Levels = 200 Levels dataset for SPACE WARS.
  */
 
 const fs = require('fs');
@@ -285,7 +285,7 @@ const allMissions = MISSIONS_META.map(meta => {
       levelInMission: lvl,
       title: specificTopic.title,
       archetype: arch,
-      story: `Junior Astronaut, welcome to ${meta.name}! In this level: ${specificTopic.title}. Your life support HUD is tracking oxygen, water, power, and radiation. Stay alert and make smart space decisions!`,
+      story: `Commander, welcome to ${meta.name}! In this level: ${specificTopic.title}. Your life support HUD is tracking oxygen, water, power, and radiation. Stay alert and make smart space decisions!`,
       objective: specificTopic.obj,
       nasaConnection: meta.nasaRef,
       realNasaFact: specificTopic.fact,
@@ -347,7 +347,7 @@ const allMissions = MISSIONS_META.map(meta => {
 });
 
 const fileContent = `/**
- * Junior Astronaut Mission Trainer - Master Missions & Levels Database
+ * SPACE WARS - Master Missions & Levels Database
  * Exactly 20 Major Missions × 10 Levels = 200 Playable Levels
  * Built with authentic NASA scientific references and educational game design.
  */

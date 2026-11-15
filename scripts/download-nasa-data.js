@@ -33,7 +33,7 @@ async function fetchWithRetry(url, options = {}, retries = 3) {
     try {
       const res = await fetch(url, {
         headers: {
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) JuniorAstronautTrainer/2026',
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) SpaceWars/2026',
           'Accept': 'application/json, text/plain, image/jpeg, application/xml, */*'
         },
         signal: AbortSignal.timeout(15000),
@@ -178,7 +178,7 @@ Note: Raw assay CEL and BAM files are 500MB+ each; metadata and subject records 
   try {
     const radlabRes = await fetch('https://visualization.osdr.nasa.gov/radlab/api/?spacecraft=ISS', {
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) JuniorAstronautTrainer/2026',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) SpaceWars/2026',
         'Accept': 'text/plain, */*'
       },
       signal: AbortSignal.timeout(20000)
@@ -382,7 +382,7 @@ Gameplay Integration:
   fs.writeFileSync(path.join(BASE_DIR, '05_NASA_MARS_TREK', 'README.md'), readmeMarsTrek);
 
   const mainReadme = `# NASA_DATA_RESOURCES
-Comprehensive Authentic NASA Scientific Data Catalog for Junior Astronaut Mission Trainer
+Comprehensive Authentic NASA Scientific Data Catalog for SPACE WARS
 
 This directory contains verified datasets downloaded directly from official NASA endpoints:
 1. 01_NASA_OPEN_API - Astronomy Picture of the Day & Image Library

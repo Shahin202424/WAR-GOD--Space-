@@ -153,6 +153,19 @@ const StoryEngine = {
     } catch (e) {}
   },
 
+  cancelStory() {
+    this.stopNarration();
+    if (this.animId) {
+      cancelAnimationFrame(this.animId);
+      this.animId = null;
+    }
+
+    const modal = document.getElementById('story-intro-modal');
+    if (modal) modal.classList.add('hidden');
+
+    this.onCompleteCallback = null;
+  },
+
   finishStory() {
     this.stopNarration();
     if (this.animId) {

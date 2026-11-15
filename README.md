@@ -1,15 +1,15 @@
-# 🚀 Junior Astronaut: Mission Trainer
+# 🚀 SPACE WARS
 ### WAR-GOD — NASA Space Apps Challenge 2026
 
-**Theme:** Interplanetary Human Spaceflight, Astronaut Survival, and Planetary Space Science  
+**Theme:** Interplanetary Human Spaceflight, Astronaut Survival, Tactical Starship Navigation, and Planetary Space Science  
 **Target Audience:** Children aged 7–12 years  
 **Technology:** HTML5, CSS3, JavaScript, HTML Canvas, Web Audio API, Web Speech API, and Node.js.
 
 ## 🌌 Project Overview
 
-Junior Astronaut: Mission Trainer is a colourful, interactive, child-friendly space adventure designed to introduce children to space exploration and astronaut survival.
+SPACE WARS is a colourful, interactive, child-friendly space survival and tactical exploration adventure designed to introduce children to space exploration and astronaut survival.
 
-Players take on the role of junior astronauts and explore space through missions inspired by real NASA science, spacecraft, planetary environments, and astronaut activities.
+Players take on the role of space commanders and explore space through missions inspired by real NASA science, spacecraft, planetary environments, and astronaut activities.
 
 The project aims to make space science engaging through interactive gameplay, exploration, challenges, and NASA open-data integration.
 
@@ -133,10 +133,10 @@ Test results should be reported based on the actual test execution. Automated as
 
 Our goal is to make space exploration accessible and exciting for children by combining interactive game development with real NASA science and educational space exploration concepts.
 
-**Project:** Junior Astronaut: Mission Trainer  
+**Project:** SPACE WARS  
 **Repository:** WAR-GOD--Space-  
 **Challenge:** 2026 NASA Space Apps Challenge
 
 ---
 
-*Created by the Junior Astronaut Mission Trainer Engineering Team.*
+*Created by the SPACE WARS Engineering Team.*

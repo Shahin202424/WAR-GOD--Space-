@@ -1,7 +1,7 @@
 {
   "status": "DEMO_DATA_BUNDLED",
   "version": "2026.2",
-  "description": "Authentic verified NASA scientific reference datasets for the Junior Astronaut Mission Trainer, used for offline play, testing, and rate-limit fallbacks.",
+  "description": "Authentic verified NASA scientific reference datasets for SPACE WARS, used for offline play, testing, and rate-limit fallbacks.",
   "donki": {
     "source": "NASA DONKI (Space Weather Database Of Notifications, Knowledge, Information)",
     "officialUrl": "https://ccmc.gsfc.nasa.gov/DONKI/",

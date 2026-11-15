@@ -1,13 +1,13 @@
 /**
  * Comprehensive Automated Test Suite
- * Junior Astronaut Mission Trainer: 20 Missions & 200 Levels
+ * SPACE WARS: 70 Levels Space Survival & Tactical Exploration
  */
 
 const fs = require('fs');
 const path = require('path');
 
 console.log('================================================================');
-console.log('🧪 RUNNING JUNIOR ASTRONAUT COMPREHENSIVE TEST SUITE');
+console.log('🧪 RUNNING SPACE WARS COMPREHENSIVE TEST SUITE');
 console.log('================================================================');
 
 let passedTests = 0;

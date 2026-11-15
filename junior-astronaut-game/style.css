@@ -1,6 +1,6 @@
 /**
- * Junior Astronaut: Mission Mars!
- * Child-Friendly, Colorful, Animated Space CSS Stylesheet
+ * SPACE WARS
+ * Futuristic, Tactical Space Exploration & Survival Adventure
  */
 
 :root {
@@ -117,18 +117,6 @@ html, body {
   padding: 20px;
 }
 
-.space-badge-tag {
-  background: linear-gradient(90deg, #FF6D00, #F50057);
-  padding: 6px 18px;
-  border-radius: 30px;
-  font-size: 0.9rem;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  box-shadow: 0 4px 15px rgba(245, 0, 87, 0.4);
-  margin-bottom: 12px;
-  animation: pulse-glow 2.5s infinite alternate;
-}
-
 .game-main-title {
   display: flex;
   flex-direction: column;
@@ -150,6 +138,33 @@ html, body {
   color: var(--space-gold);
   text-shadow: 0 0 20px rgba(255, 215, 0, 0.7), 0 4px 12px rgba(255, 109, 0, 0.8);
   letter-spacing: 4px;
+}
+
+.space-wars-logo {
+  font-family: var(--font-space);
+  font-size: 4.4rem;
+  font-weight: 900;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  color: var(--space-gold);
+  text-shadow: 0 0 25px rgba(255, 215, 0, 0.8), 0 0 50px rgba(0, 229, 255, 0.6), 0 4px 15px rgba(255, 109, 0, 0.9);
+  background: linear-gradient(180deg, #FFFFFF 0%, #00E5FF 35%, #FFD700 70%, #FF6D00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 25px rgba(0, 229, 255, 0.7)) drop-shadow(0 4px 15px rgba(255, 109, 0, 0.75));
+  animation: wars-title-pulse 3s ease-in-out infinite alternate;
+  display: inline-block;
+}
+
+@keyframes wars-title-pulse {
+  0% {
+    filter: drop-shadow(0 0 20px rgba(0, 229, 255, 0.6)) drop-shadow(0 4px 12px rgba(255, 109, 0, 0.7));
+    transform: scale(1);
+  }
+  100% {
+    filter: drop-shadow(0 0 35px rgba(0, 229, 255, 0.95)) drop-shadow(0 4px 22px rgba(255, 215, 0, 0.95));
+    transform: scale(1.02);
+  }
 }
 
 .home-tagline {
@@ -1428,34 +1443,254 @@ button:active {
 .pause-actions-list, .settings-rows-list { display: flex; flex-direction: column; gap: 14px; margin: 20px 0; }
 .setting-item { display: flex; justify-content: space-between; align-items: center; text-align: left; }
 
-/* Telemetry Modal */
-.telemetry-banner {
-  background: rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 12px;
-  border-radius: 14px;
-  margin-bottom: 16px;
-  font-size: 1.05rem;
+/* =========================================================================
+   NASA SCIENCE LAB TELEMETRY MODAL (RESPONSIVE & OVERFLOW SAFE)
+   ========================================================================= */
+
+#nasa-telemetry-modal .modal-card.wide-card {
+  max-width: 960px;
+  width: 92%;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 24px 28px;
 }
-.telemetry-time { font-size: 0.8rem; color: rgba(255, 255, 255, 0.65); margin-top: 4px; }
+
+.telemetry-subtitle {
+  font-size: 0.95rem;
+  color: #B0BEC5;
+  margin-bottom: 18px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+#telemetry-details-container {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.telemetry-banner {
+  background: rgba(4, 12, 28, 0.90);
+  border: 1px solid rgba(0, 229, 255, 0.4);
+  padding: 12px 18px;
+  border-radius: 14px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.telemetry-time {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 4px;
+  font-family: var(--font-telemetry);
+}
+
+/* Responsive CSS Grid: Desktop = 3 cols, Tablet = 2 cols, Mobile = 1 col */
 .telemetry-cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 12px;
-  margin-bottom: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 22px;
   text-align: left;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  min-width: 0;
 }
+
+@media (max-width: 960px) {
+  .telemetry-cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .telemetry-cards-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+  #nasa-telemetry-modal .modal-card.wide-card {
+    padding: 18px 14px;
+    width: 95%;
+  }
+}
+
+/* NASA Data Card */
 .telemetry-card {
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 14px;
-  padding: 12px;
+  background: linear-gradient(180deg, rgba(8, 20, 46, 0.88) 0%, rgba(4, 12, 30, 0.94) 100%);
+  border: 1.5px solid rgba(0, 229, 255, 0.35);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
-.tel-card-title { font-weight: 700; font-size: 0.95rem; color: var(--space-cyan); margin-bottom: 4px; }
-.tel-card-status { font-weight: 700; font-size: 0.8rem; margin-bottom: 6px; }
-.tel-card-summary { font-size: 0.82rem; color: rgba(255, 255, 255, 0.85); margin-bottom: 8px; }
-.tel-card-time { font-size: 0.75rem; color: rgba(255, 255, 255, 0.6); margin-bottom: 6px; }
-.tel-card-link { font-size: 0.75rem; color: var(--space-gold); text-decoration: none; }
+
+.telemetry-card:hover {
+  transform: translateY(-2px);
+  border-color: #00E5FF;
+  box-shadow: 0 8px 24px rgba(0, 229, 255, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.tel-card-title {
+  font-family: var(--font-space);
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: var(--space-cyan);
+  margin-bottom: 6px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.tel-card-status {
+  font-weight: 800;
+  font-size: 0.76rem;
+  font-family: var(--font-telemetry);
+  margin-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+  padding: 2px 8px;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.tel-card-status.status-live,
+.tel-card-status.status-live-data {
+  background: rgba(0, 230, 118, 0.18);
+  border: 1px solid #00E676;
+  color: #00E676;
+  box-shadow: 0 0 8px rgba(0, 230, 118, 0.35);
+}
+
+.tel-card-status.status-cached {
+  background: rgba(0, 229, 255, 0.18);
+  border: 1px solid #00E5FF;
+  color: #00E5FF;
+}
+
+.tel-card-status.status-demo-mode {
+  background: rgba(255, 215, 0, 0.18);
+  border: 1px solid #FFD700;
+  color: #FFD700;
+}
+
+.tel-card-status.status-offline {
+  background: rgba(255, 23, 68, 0.18);
+  border: 1px solid #FF1744;
+  color: #FF1744;
+}
+
+/* API Endpoint URL Container & Code Block with Safe Wrapping */
+.tel-card-endpoint {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.tel-card-endpoint code {
+  display: block;
+  font-family: var(--font-telemetry);
+  font-size: 0.72rem;
+  color: #80D8FF;
+  background: rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(0, 229, 255, 0.28);
+  border-radius: 8px;
+  padding: 6px 10px;
+  line-height: 1.4;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.tel-card-summary {
+  font-size: 0.84rem;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.45;
+  margin-bottom: 10px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.tel-card-gameplay {
+  font-size: 0.80rem;
+  color: #B2EBF2;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  background: rgba(0, 229, 255, 0.06);
+  border-left: 3px solid var(--space-cyan);
+  padding: 6px 10px;
+  border-radius: 0 6px 6px 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.tel-card-gameplay strong {
+  color: var(--space-cyan);
+  font-family: var(--font-space);
+  font-size: 0.75rem;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.tel-card-time {
+  font-size: 0.74rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 10px;
+  font-family: var(--font-telemetry);
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.tel-card-link {
+  font-size: 0.80rem;
+  color: var(--space-gold);
+  text-decoration: none;
+  font-weight: 700;
+  font-family: var(--font-space);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: auto;
+  padding-top: 6px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.12);
+  transition: all 0.2s ease;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.tel-card-link:hover {
+  color: #FFFFFF;
+  text-shadow: 0 0 10px #FFD700;
+  transform: translateX(2px);
+}
 
 /* Certificate Card */
 .certificate-card {
@@ -1587,6 +1822,7 @@ button:active {
    ========================================================================= */
 
 @media (max-width: 600px) {
+  .space-wars-logo { font-size: 2.6rem; letter-spacing: 4px; }
   .title-sub { font-size: 1.6rem; }
   .title-main { font-size: 2.3rem; }
   .home-tagline { font-size: 1.1rem; }
@@ -3015,3 +3251,182 @@ button:active {
   letter-spacing: 0.5px;
   margin-bottom: 4px;
 }
+
+/* =========================================================================
+   UNIVERSAL BACK / PREVIOUS PAGE NAVIGATION ARCHITECTURE
+   ========================================================================= */
+
+.universal-back-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(4, 14, 34, 0.92);
+  color: #00E5FF;
+  border: 1.5px solid rgba(0, 229, 255, 0.65);
+  border-radius: 12px;
+  padding: 8px 18px;
+  font-family: var(--font-space);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5), 0 0 12px rgba(0, 229, 255, 0.25);
+  transition: all 0.22s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 30;
+  min-height: 38px;
+  box-sizing: border-box;
+}
+
+.universal-back-btn:hover {
+  background: rgba(0, 229, 255, 0.20);
+  border-color: #00E5FF;
+  color: #FFFFFF;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7), 0 0 22px rgba(0, 229, 255, 0.65);
+  transform: translateX(-3px) scale(1.02);
+}
+
+.universal-back-btn:active {
+  transform: translateX(-1px) scale(0.97);
+  box-shadow: 0 2px 8px rgba(0, 229, 255, 0.4);
+}
+
+.universal-back-btn:focus-visible {
+  outline: 2px solid #FFD700;
+  outline-offset: 3px;
+}
+
+/* Modal Anchored Back Buttons */
+.modal-top-back-btn {
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  z-index: 25;
+}
+
+/* Modal Cards with Top Back Buttons */
+.modal-card.has-back-btn {
+  padding-top: 56px;
+}
+
+/* Story Intro Top Row - make back button flow inline with pills */
+.story-top-row .modal-top-back-btn {
+  position: static;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  flex-shrink: 0;
+}
+
+/* Screen Top Navigation Bar (Cadet Select & How to Play) */
+.screen-top-nav-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+/* Mission Control Header Layout */
+.levels-header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.levels-header-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+/* HUD Back Button (Cockpit) */
+.hud-back-btn {
+  padding: 5px 12px;
+  font-size: 0.80rem;
+  border-radius: 14px;
+  background: rgba(0, 229, 255, 0.12);
+  border: 1.2px solid rgba(0, 229, 255, 0.55);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  min-height: 32px;
+}
+
+.hud-back-btn:hover {
+  background: rgba(0, 229, 255, 0.28);
+  transform: translateX(-2px);
+}
+
+/* Gameplay Protection Leave Mission Modal */
+.leave-mission-card {
+  border: 2px solid #FF1744 !important;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.9), 0 0 35px rgba(255, 23, 68, 0.45) !important;
+  max-width: 500px;
+}
+
+.leave-mission-card .modal-danger-title {
+  font-family: var(--font-space);
+  color: #FF5252;
+  font-size: 1.55rem;
+  margin: 10px 0 8px 0;
+  letter-spacing: 1px;
+}
+
+.leave-mission-card .modal-danger-reason {
+  color: #E0E0E0;
+  font-size: 0.96rem;
+  line-height: 1.5;
+  margin-bottom: 22px;
+}
+
+/* Responsive Breakpoints for Universal Navigation */
+@media (max-width: 768px) {
+  .universal-back-btn {
+    padding: 6px 14px;
+    font-size: 0.80rem;
+    border-radius: 10px;
+    gap: 6px;
+    min-height: 34px;
+  }
+  
+  .levels-header-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  
+  .levels-header-left {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .modal-top-back-btn {
+    top: 12px;
+    left: 14px;
+  }
+  
+  .modal-card.has-back-btn {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .universal-back-btn {
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    min-height: 30px;
+  }
+
+  .hud-back-btn {
+    padding: 4px 8px;
+    font-size: 0.72rem;
+    min-height: 28px;
+  }
+  
+  .levels-header-left {
+    flex-wrap: wrap;
+  }
+}
+

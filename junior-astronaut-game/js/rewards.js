@@ -10,7 +10,8 @@
  */
 
 const RewardsManager = {
-  storageKey: 'junior_astronaut_save_v2',
+  storageKey: 'space_wars_save_v2',
+  legacyStorageKey: 'junior_astronaut_save_v2',
   state: {
     astronautName: 'Leo',
     cadetId: 'leo',
@@ -46,7 +47,10 @@ const RewardsManager = {
 
   load() {
     try {
-      const data = localStorage.getItem(this.storageKey);
+      let data = localStorage.getItem(this.storageKey);
+      if (!data) {
+        data = localStorage.getItem(this.legacyStorageKey);
+      }
       if (data) {
         const parsed = JSON.parse(data);
         this.state = Object.assign(this.state, parsed);

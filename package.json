@@ -1,7 +1,7 @@
 {
-  "name": "junior-astronaut-mission-trainer",
+  "name": "space-wars",
   "version": "2026.2.0",
-  "description": "Junior Astronaut Mission Trainer - Advanced NASA-Powered Space Survival Game for Children (20 Missions × 10 Levels = 200 Levels)",
+  "description": "SPACE WARS - Advanced NASA-Powered Space Survival & Tactical Exploration Game (7 Missions × 10 Levels = 70 Levels)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -22,7 +22,7 @@
     "radlab",
     "mars-trek"
   ],
-  "author": "Junior Astronaut Mission Trainer Engineering Team",
+  "author": "SPACE WARS Engineering Team",
   "license": "MIT"
 }
 

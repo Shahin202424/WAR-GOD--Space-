@@ -1,5 +1,5 @@
 # NASA_DATA_RESOURCES
-Comprehensive Authentic NASA Scientific Data Catalog for Junior Astronaut Mission Trainer
+Comprehensive Authentic NASA Scientific Data Catalog for SPACE WARS
 
 This directory contains verified datasets downloaded directly from official NASA endpoints:
 1. 01_NASA_OPEN_API - Astronomy Picture of the Day & Image Library

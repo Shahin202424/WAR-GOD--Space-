@@ -360,7 +360,7 @@ const MissionsManager = {
         if (titleEl) titleEl.textContent = 'MISSION COMPLETED – RETURNED TO EARTH! 🌍';
         if (nextBtn) {
           nextBtn.textContent = '🎓 VIEW GRADUATION CERTIFICATE 👑';
-          nextBtn.title = 'View Official NASA Junior Astronaut Graduation Certificate';
+          nextBtn.title = 'View Official NASA SPACE WARS Graduation Certificate';
         }
       } else {
         if (titleEl) titleEl.textContent = `LEVEL COMPLETE! (Level ${this.currentGlobalLevel} of 70)`;

@@ -3,7 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Junior Astronaut: 70-Level Space Survival Adventure! 🚀</title>
+  <title>SPACE WARS: 70-Level Space Survival & Tactical Adventure! 🚀</title>
+  <meta name="title" content="SPACE WARS">
+  <meta name="description" content="SPACE WARS: 70-Level Space Survival & Tactical Exploration Adventure powered by authentic NASA open data.">
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SPACE WARS">
+  <meta property="og:description" content="SPACE WARS: 70-Level Space Survival & Tactical Exploration Adventure powered by authentic NASA open data.">
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="SPACE WARS">
+  <meta property="twitter:description" content="SPACE WARS: 70-Level Space Survival & Tactical Exploration Adventure powered by authentic NASA open data.">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,12 +31,10 @@
     <canvas id="home-bg-canvas"></canvas>
 
     <div class="home-content-container">
-      <div class="space-badge-tag">🚀 2026 NASA SPACE APPS CHALLENGE • 7 MISSIONS • 70 LEVELS</div>
       <h1 class="game-main-title">
-        <span class="title-sub">JUNIOR ASTRONAUT</span>
-        <span class="title-main">MISSION TRAINER</span>
+        <span class="title-main space-wars-logo">SPACE WARS</span>
       </h1>
-      <p class="home-tagline">"Master space survival from Earth orbit to Moon & Mars!"</p>
+      <p class="home-tagline">"Master space survival, orbital navigation & planetary exploration!"</p>
 
       <!-- Animated Martian Astronaut Scene -->
       <div class="home-character-scene">
@@ -56,7 +64,7 @@
       </div>
 
       <div class="nasa-attribution-strip">
-        Powered by Real NASA Open Data: DONKI • OSDR • RadLab • Mars Trek • NASA Images
+        SPACE WARS • Powered by Real NASA Open Data: DONKI • OSDR • RadLab • Mars Trek • NASA Images
       </div>
     </div>
   </section>
@@ -66,6 +74,11 @@
        ========================================================================= -->
   <section id="screen-select" class="game-screen hidden">
     <div class="screen-box-card">
+      <div class="screen-top-nav-bar">
+        <button class="universal-back-btn" id="btn-select-back" aria-label="Back to Start Screen">
+          ⬅️ BACK
+        </button>
+      </div>
       <h2 class="screen-title">Astronaut Cadet Preparation</h2>
       <p class="screen-subtitle">"Choose your suit, difficulty, and callsign!"</p>
 
@@ -149,7 +162,7 @@
       <div class="character-preview-box">
         <div id="character-preview-avatar" class="preview-avatar">🟠 🧑‍🚀</div>
         <div id="preview-astronaut-name" class="preview-name">Cadet Alex</div>
-        <div class="preview-role">Junior Astronaut Cadet • Moon & Mars Program</div>
+        <div class="preview-role">SPACE WARS Cadet • Moon & Mars Program</div>
       </div>
 
       <button id="btn-start-mission" class="btn-primary-glow btn-wide">
@@ -164,8 +177,13 @@
   <section id="screen-levels" class="game-screen hidden">
     <div class="levels-header-bar">
       <div class="levels-header-left">
-        <h2>Mission Control: 7 Missions & 70 Levels</h2>
-        <span class="levels-sub">Explore Earth Orbit, Moon Outposts, Deep Space & Martian Colonies</span>
+        <button class="universal-back-btn" id="btn-levels-back" aria-label="Back to Previous Screen">
+          ⬅️ BACK
+        </button>
+        <div class="levels-header-titles">
+          <h2>SPACE WARS: Mission Control (7 Missions & 70 Levels)</h2>
+          <span class="levels-sub">Explore Earth Orbit, Moon Outposts, Deep Space & Martian Colonies</span>
+        </div>
       </div>
       <div class="levels-header-right">
         <button id="btn-view-certificate" class="btn-secondary btn-sm">
@@ -186,6 +204,9 @@
     <header id="game-hud" class="game-hud-bar hidden">
       <div class="hud-top-row">
         <div class="hud-left">
+          <button id="hud-back-btn" class="universal-back-btn hud-back-btn" aria-label="Back to Mission Control">
+            ⬅️ BACK
+          </button>
           <div class="hud-astronaut-pill">
             <span id="hud-avatar-icon">🧑‍🚀</span>
             <span id="hud-player-name">Alex</span>
@@ -367,7 +388,12 @@
        ========================================================================= -->
   <section id="screen-how-to-play" class="game-screen hidden">
     <div class="screen-box-card wide-card">
-      <h2 class="screen-title">How To Play Junior Astronaut 🎮</h2>
+      <div class="screen-top-nav-bar">
+        <button class="universal-back-btn" id="btn-how-top-back" aria-label="Back to Previous Screen">
+          ⬅️ BACK
+        </button>
+      </div>
+      <h2 class="screen-title">How To Play SPACE WARS 🎮</h2>
       <div class="instructions-grid">
         <div class="instruction-card">
           <div class="inst-icon">🚀</div>
@@ -408,6 +434,9 @@
 
       <div class="story-overlay-content">
         <div class="story-top-row">
+          <button class="universal-back-btn modal-top-back-btn" id="btn-story-back" aria-label="Back to Mission Control">
+            ⬅️ BACK
+          </button>
           <span id="story-mission-tag" class="story-mission-pill">MISSION 1: TRAINING ACADEMY</span>
           <span id="story-nasa-badge" class="story-nasa-pill">🛰️ NASA Artemis SLS</span>
         </div>
@@ -459,7 +488,7 @@
       <h2 id="complete-level-num">LEVEL COMPLETE!</h2>
       <div id="complete-stars-display" class="modal-stars-row">⭐⭐⭐</div>
       <div id="complete-points-display" class="modal-points-callout">+100 Science Points!</div>
-      <p id="complete-message-display" class="modal-message-text">Outstanding piloting, Junior Astronaut!</p>
+      <p id="complete-message-display" class="modal-message-text">Outstanding piloting, SPACE WARS Commander!</p>
       <div id="complete-fact-display" class="modal-fact-callout hidden">
         <span class="fact-bulb">💡</span>
         <div class="fact-text-wrap">
@@ -523,7 +552,10 @@
 
   <!-- Pause Modal -->
   <div id="pause-modal" class="game-modal-overlay hidden">
-    <div class="modal-card small-card">
+    <div class="modal-card small-card has-back-btn">
+      <button class="universal-back-btn modal-top-back-btn" id="btn-pause-top-back" aria-label="Resume Playing">
+        ⬅️ BACK
+      </button>
       <h2>Game Paused ⏸️</h2>
       <div class="pause-actions-list">
         <button id="btn-pause-resume" class="btn-primary-glow btn-wide">RESUME ▶️</button>
@@ -535,7 +567,10 @@
 
   <!-- Settings Modal -->
   <div id="settings-modal" class="game-modal-overlay hidden">
-    <div class="modal-card">
+    <div class="modal-card has-back-btn">
+      <button class="universal-back-btn modal-top-back-btn" id="btn-settings-top-back" aria-label="Back to Previous Screen">
+        ⬅️ BACK
+      </button>
       <h2>Settings ⚙️</h2>
       <div class="settings-rows-list">
         <div class="setting-item">
@@ -547,31 +582,37 @@
           <button id="settings-reset-btn" class="btn-danger">Reset Save Data 🗑️</button>
         </div>
       </div>
-      <button id="btn-settings-close" class="btn-secondary btn-wide">CLOSE ✖</button>
+      <button id="btn-settings-close" class="btn-secondary btn-wide">⬅️ BACK TO PREVIOUS SCREEN</button>
     </div>
   </div>
 
   <!-- NASA Live Science Telemetry / Science Lab Modal -->
   <div id="nasa-telemetry-modal" class="game-modal-overlay hidden">
-    <div class="modal-card wide-card">
-      <h2>NASA Science Lab: Open Data Transparency 🛰️</h2>
+    <div class="modal-card wide-card has-back-btn">
+      <button class="universal-back-btn modal-top-back-btn" id="btn-telemetry-top-back" aria-label="Back to Previous Screen">
+        ⬅️ BACK
+      </button>
+      <h2>SPACE WARS: NASA Science Lab 🛰️</h2>
       <p class="telemetry-subtitle">
         Real-time telemetry and authentic scientific references powering this game:
       </p>
       <div id="telemetry-details-container"></div>
       <button id="btn-telemetry-close" class="btn-primary-glow btn-wide">
-        BACK TO MISSION CONTROL 🚀
+        ⬅️ BACK TO PREVIOUS SCREEN
       </button>
     </div>
   </div>
 
-  <!-- Junior Astronaut Graduation Certificate Modal -->
+  <!-- SPACE WARS Graduation Certificate Modal -->
   <div id="certificate-modal" class="game-modal-overlay hidden">
-    <div class="modal-card certificate-card">
+    <div class="modal-card certificate-card has-back-btn">
+      <button class="universal-back-btn modal-top-back-btn" id="btn-cert-top-back" aria-label="Back to Previous Screen">
+        ⬅️ BACK
+      </button>
       <!-- Unlocked Certificate View (Strictly after 70 levels) -->
       <div id="cert-unlocked-view" class="cert-border">
         <div class="cert-nasa-logo">🚀 NASA SPACE APPS CHALLENGE 2026</div>
-        <h1 class="cert-title">JUNIOR ASTRONAUT GRADUATION CERTIFICATE</h1>
+        <h1 class="cert-title">SPACE WARS GRADUATION CERTIFICATE</h1>
         <p class="cert-subtitle">This officially certifies that Space Explorer</p>
         <div id="cert-player-name" class="cert-cadet-name">Alex</div>
         <p class="cert-body-text">
@@ -591,7 +632,7 @@
             <div class="sig-title">Mission Director</div>
           </div>
           <div class="cert-sig">
-            <div id="cert-id-number" class="sig-id">ID: NASA-JAMT-2026-894210</div>
+            <div id="cert-id-number" class="sig-id">ID: NASA-SPACE-WARS-894210</div>
             <div class="sig-title">Verified Certificate ID</div>
           </div>
           <div class="cert-sig">
@@ -604,8 +645,8 @@
       <!-- Locked View (Shown if visited before all 70 levels are completed) -->
       <div id="cert-locked-view" class="cert-locked-card hidden">
         <div class="locked-icon">🔒</div>
-        <h2>Graduation Certificate Locked</h2>
-        <p>The Junior Astronaut Graduation Certificate is awarded only to astronauts who successfully complete all 7 Major Missions and all 70 Levels!</p>
+        <h2>SPACE WARS Graduation Certificate Locked</h2>
+        <p>The SPACE WARS Graduation Certificate is awarded only to astronauts who successfully complete all 7 Major Missions and all 70 Levels!</p>
         <div id="cert-progress-meter" class="cert-meter">0 / 70 Levels Completed</div>
         <p class="locked-hint">Keep exploring, cadet! Every completed level brings you closer to your official graduation!</p>
       </div>
@@ -615,7 +656,30 @@
           🖨️ PRINT / DOWNLOAD PDF
         </button>
         <button id="btn-cert-close" class="btn-secondary">
-          CLOSE
+          ⬅️ BACK
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gameplay Protection Confirmation Dialog (Safe Exit Confirmation) -->
+  <div id="leave-mission-confirm-modal" class="game-modal-overlay hidden">
+    <div class="modal-card danger-card leave-mission-card has-back-btn">
+      <button class="universal-back-btn modal-top-back-btn" id="btn-leave-top-back" aria-label="Resume Playing">
+        ⬅️ BACK
+      </button>
+      <div class="modal-danger-icon">🚀⚠️</div>
+      <h2 class="modal-danger-title">LEAVE CURRENT MISSION?</h2>
+      <p class="modal-danger-reason">
+        Your training progress, badges, and collected science points are safely stored at Mission Control.<br>
+        Do you want to return to Mission Control or continue playing?
+      </p>
+      <div class="modal-buttons-row">
+        <button id="btn-leave-cancel" class="btn-primary-glow btn-large">
+          RESUME PLAYING ▶️
+        </button>
+        <button id="btn-leave-confirm" class="btn-secondary btn-large">
+          EXIT TO MISSION CONTROL 🗺️
         </button>
       </div>
     </div>

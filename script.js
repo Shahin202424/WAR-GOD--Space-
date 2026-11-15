@@ -4,7 +4,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('🌌 Starting Junior Astronaut Mission Trainer...');
+  console.log('🌌 Starting SPACE WARS...');
 
   // Initialize universal controls
   if (window.ControlsManager) {
